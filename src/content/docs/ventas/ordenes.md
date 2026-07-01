@@ -11,7 +11,7 @@ Una **orden** es cada compra que hace una persona. Agrupa una o más entradas y 
 
 ## Ver las órdenes
 
-En el evento, andá a **Órdenes**. Ves la lista con: comprador, total, estado, medio de pago y fecha. Podés **buscar** por nombre/email y **filtrar** por estado.
+En el evento, andá a **Pedidos** (menú **Venta de boletos**). Ves la lista con: comprador, total, estado, medio de pago y fecha. Podés **buscar** por nombre/email y **filtrar** por estado.
 
 ## Estados
 

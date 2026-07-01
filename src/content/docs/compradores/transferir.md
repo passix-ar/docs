@@ -1,27 +1,23 @@
 ---
-title: Transferir o compartir entradas
-description: Cómo enviar una entrada a otra persona si no podés asistir.
+title: Compartir o reasignar entradas
+description: Cómo repartir las entradas de tu grupo y cómo cambiar el nombre del asistente.
 sidebar:
   order: 3
 ---
 
-Si no podés asistir o compraste para tu grupo, podés pasar una entrada a otra persona.
+Compraste para tu grupo o no podés ir. Esto es lo que se puede hacer.
 
 ## Compartir con tu grupo
 
-Si compraste varias entradas, cada asistente tiene **su propio QR**. Reenviale a cada uno su ticket (desde el email o el link de la orden) para que entre con el suyo.
+Si compraste varias entradas, **cada asistente tiene su propio QR**. Reenviale a cada persona su ticket (desde el email de confirmación o el link de tu orden) para que ingrese con el suyo. No hace falta ningún trámite extra: cada QR entra una vez.
 
-## Transferir a otra persona
+## Cambiar el nombre de un asistente
 
-1. Abrí tu **orden** desde el email de confirmación.
-2. Elegí la entrada que querés transferir.
-3. Ingresá **nombre y email** de quien va a asistir.
-4. La persona recibe el **QR a su nombre**.
+Si querés que una entrada quede a nombre de otra persona, **contactá al organizador**. Desde su panel puede **editar los datos del asistente** (nombre y email) en la sección de asistentes y reenviarle el ticket a la nueva persona.
 
-:::caution
-Al transferir, el **QR anterior deja de ser válido**. Solo sirve el nuevo, para evitar duplicados en la puerta.
+- Buscá el contacto del organizador en la página del evento o en el email de tu compra.
+- Indicale tu **número de orden** y el nombre nuevo.
+
+:::note
+Passix no tiene (por ahora) una transferencia automática que hagas vos mismo desde la orden. El cambio de titular lo realiza el **organizador**.
 :::
-
-## Si el organizador lo permite
-
-La opción de transferir depende de la configuración del evento. Si no la ves, contactá al **organizador**: puede reasignar la entrada desde su panel.

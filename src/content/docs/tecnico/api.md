@@ -1,11 +1,11 @@
 ---
 title: API pública
-description: Integrá Passix con tus sistemas usando la API REST.
+description: Consultá eventos, organizadores y productos de forma programática con la API pública de Passix.
 sidebar:
   order: 1
 ---
 
-Passix expone una **API REST** para integrar eventos, entradas y ventas con tus propios sistemas.
+Passix expone una **API REST pública** para leer datos de eventos, organizadores y productos, y para integrarlos en tu propio sitio.
 
 ## Endpoint base
 
@@ -13,21 +13,20 @@ Passix expone una **API REST** para integrar eventos, entradas y ventas con tus 
 https://api.getpassix.com
 ```
 
-## Autenticación
+## Endpoints públicos (sin autenticación)
 
-Los endpoints privados requieren un **token**. Generalo desde el panel en **Configuración → API** (a nivel organización) y enviálo en el header:
+Los datos públicos no requieren token:
 
-```http
-Authorization: Bearer TU_TOKEN
-```
+| Método | Endpoint | Devuelve |
+|---|---|---|
+| `GET` | `/public/events` | Eventos públicos. |
+| `GET` | `/public/events/{event_id}` | Detalle de un evento. |
+| `GET` | `/public/events/{event_id}/products` | Entradas/productos de un evento. |
+| `GET` | `/public/organizers/{organizer_id}` | Datos de un organizador. |
+| `GET` | `/public/organizers/{organizer_id}/events` | Eventos de un organizador. |
+| `GET` | `/public/events/{event_id}/promo-codes/{codigo}` | Valida un código promocional. |
 
-:::caution
-Tratá el token como una contraseña. No lo publiques en el frontend ni en repos públicos.
-:::
-
-## Ejemplo: eventos públicos
-
-Listar los eventos públicos no requiere token:
+### Ejemplo
 
 ```bash
 curl https://api.getpassix.com/public/events
@@ -50,12 +49,12 @@ Respuesta (resumida):
 
 ## Casos de uso
 
-- Mostrar tus eventos en **tu propio sitio**.
-- Sincronizar **ventas** con tu CRM o planilla.
-- Automatizar **acreditaciones** o reportes.
+- Mostrar tus eventos en **tu propio sitio** o app.
+- Alimentar una cartelera o listado con tus próximos shows.
+- Verificar códigos promocionales desde un sistema externo.
 
-Para reaccionar a eventos en tiempo real (una venta, un check-in), usá [Webhooks](/tecnico/webhooks/) en vez de hacer *polling* a la API.
+Para **reaccionar en tiempo real** a ventas o check-ins (en vez de consultar la API en loop), usá [Webhooks](/tecnico/webhooks/).
 
 :::note
-Esta página cubre lo esencial. Para el detalle completo de endpoints, sumá acá tu especificación **OpenAPI** cuando la publiques.
+Los endpoints públicos son de **solo lectura** sobre datos públicos. Para operaciones privadas o integraciones a medida, escribinos desde [getpassix.com](https://getpassix.com).
 :::

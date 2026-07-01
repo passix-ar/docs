@@ -23,7 +23,7 @@ Mientras editás ves una **vista previa** en tiempo real. Nada cambia para el p�
 
 ## Cómo llegar
 
-1. Dentro del evento, andá a **Diseñar página**.
+1. Dentro del evento, andá a **Diseñador de página de inicio** (menú **Configuración y diseño**).
 2. Ajustá colores, portada y contenido.
 3. **Vista previa** para revisar en desktop y mobile.
 4. **Guardar**.

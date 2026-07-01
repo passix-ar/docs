@@ -9,15 +9,19 @@ El día del evento validás las entradas escaneando el **QR** de cada asistente 
 
 ## Antes del evento
 
-1. Creá una o varias [listas de check-in](/check-in/listas/).
-2. Compartí el acceso del escáner con tu **staff de puerta**.
+1. Creá una o varias [listas de registro](/check-in/listas/).
+2. Copiá el **link de la lista** y pasáselo a tu **staff de puerta**.
 3. Probá el escaneo con una entrada de prueba.
+
+:::tip
+El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escanear. Compartilo solo con tu staff de confianza.
+:::
 
 ## Escanear en la puerta
 
-1. Abrí el **escáner** de Passix desde el celular.
-2. Iniciá sesión / abrí la **lista** asignada.
-3. Apuntá la cámara al **QR** del asistente.
+1. Abrí el **link de la lista de registro** desde el celular.
+2. Permití el acceso a la **cámara**.
+3. Apuntá al **QR** del asistente.
 4. El resultado es inmediato:
 
 | Resultado | Significado |
@@ -38,5 +42,5 @@ El día del evento validás las entradas escaneando el **QR** de cada asistente 
 Si alguien llega sin el QR (batería muerta, no le llegó el mail), podés buscarlo en la lista de asistentes y marcar el ingreso **a mano** tras verificar su identidad.
 
 :::note
-Cada QR se valida **una sola vez**. Si una entrada fue [transferida](/compradores/transferir/), solo sirve el QR más nuevo; el anterior da "ya usada / inválida".
+Cada QR se valida **una sola vez**. Si un QR ya fue escaneado, vuelve a aparecer como **ya usado**: así evitás que entren dos veces con la misma entrada.
 :::

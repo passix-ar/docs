@@ -12,6 +12,10 @@ Después de pagar, tu entrada con **código QR** queda disponible al instante.
 - En el **email de confirmación** que te llega tras la compra.
 - Desde el **link de tu orden**, que podés volver a abrir cuando quieras.
 
+## ¿Perdiste el email?
+
+Usá la **búsqueda de entradas**: en la pantalla de acceso de Passix hacé clic en **"¿Solo buscás tus entradas?"**, ingresá el **email** con el que compraste y te llega un enlace para volver a ver tus órdenes y tickets. No necesitás crear una cuenta.
+
 ## Formatos
 
 - Verla **online** desde el celular.
@@ -29,4 +33,4 @@ Mostrá el **QR** desde el celular (o impreso). El personal lo escanea y listo. 
 
 ## Siguiente paso
 
-¿No podés ir? Aprendé a [transferir tu entrada](/compradores/transferir/).
+¿Compraste para tu grupo o no podés ir? Mirá cómo [compartir o reasignar entradas](/compradores/transferir/).

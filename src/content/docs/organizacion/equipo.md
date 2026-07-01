@@ -16,19 +16,25 @@ Sumá a tu equipo a la organización y controlá qué puede hacer cada persona.
 
 ## Roles
 
+Al invitar elegís uno de dos roles:
+
 | Rol | Puede |
 |---|---|
-| **Administrador** | Todo: eventos, ventas, pagos, equipo. |
-| **Organizador** | Gestionar eventos y ventas, sin tocar pagos/equipo. |
-| **Check-in / Staff** | Solo validar entradas en la puerta. |
+| **Admin** | Acceso completo a eventos y a la configuración de la cuenta. |
+| **Organizer** | Solo gestiona eventos y productos. **No** puede gestionar usuarios, configuración de la cuenta ni facturación. |
 
-Los roles exactos pueden variar según tu configuración, pero la idea es dar **el mínimo acceso necesario** a cada persona.
+Dale a cada persona **el mínimo acceso necesario**.
+
+## ¿Y el personal de puerta?
+
+Para validar entradas **no hace falta** invitar a nadie ni darle un rol. El check-in se hace desde el **link de la lista de registro**, que se comparte y funciona sin cuenta. Ver [Listas de registro](/check-in/listas/) y [Escanear y validar QR](/check-in/escanear/).
 
 ## Buenas prácticas
 
-- Al personal de puerta, dale rol de **check-in** y el acceso a su [lista](/check-in/listas/), nada más.
+- Usá **Organizer** para quien maneja eventos pero no debe ver facturación ni el equipo.
+- Al personal de puerta, pasale solo el **link de check-in** de su lista, nada más.
 - Revisá el equipo después de cada evento y **quitá accesos** que ya no hagan falta.
 
 :::caution
-El acceso a **Pagos** (MercadoPago) debería quedar solo en manos de administradores de confianza.
+La configuración de **Pagos** (MercadoPago) y de la cuenta solo la ven los **Admin**. Reservá ese rol para gente de confianza.
 :::

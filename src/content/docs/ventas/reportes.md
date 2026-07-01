@@ -5,7 +5,7 @@ sidebar:
   order: 4
 ---
 
-Los **reportes** te dan la foto de cómo va tu evento y te permiten exportar datos.
+Los **reportes** te dan la foto de cómo va tu evento y te permiten exportar datos. En el panel del evento están en **Informes** (menú **Resumen**).
 
 ![Informes y estadísticas del evento](/img/panel/ev-reports.png)
 

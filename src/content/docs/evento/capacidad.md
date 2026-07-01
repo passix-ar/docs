@@ -17,7 +17,7 @@ A veces querés un **tope compartido** entre varias entradas. Por ejemplo:
 
 ## Crear una asignación
 
-1. En el evento, andá a **Capacidad**.
+1. En el evento, andá a **Gestión de capacidad** (menú **Gestión de invitados**).
 2. **Crear asignación** y ponele un nombre (ej. "Aforo salón").
 3. Definí el **límite** total.
 4. Asociá las **entradas** que comparten ese cupo.

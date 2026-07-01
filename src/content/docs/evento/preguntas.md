@@ -24,7 +24,7 @@ Con **Preguntas** pedís información adicional durante la compra, además de no
 
 ## Crear una pregunta
 
-1. En el evento, andá a **Preguntas**.
+1. En el evento, andá a **Preguntas de registro** (menú **Configuración y diseño**).
 2. **Crear pregunta**.
 3. Definí el **título**, el **tipo** (por orden o por asistente), el **formato** y si es **obligatoria**.
 4. Ordenala arrastrando en la lista.

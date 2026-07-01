@@ -5,60 +5,46 @@ sidebar:
   order: 2
 ---
 
-Los **webhooks** te permiten enterarte al instante de lo que pasa en Passix sin estar consultando la API todo el tiempo.
-Los **webhooks** te permiten recibir notificaciones automáticas en tiempo real cuando ocurren eventos importantes en Passix (ej. una nueva venta, un check-in). Esto es ideal para integrar Passix con tus propios sistemas, CRM, herramientas de marketing o bases de datos sin necesidad de hacer *polling* a la API.
+Los **webhooks** te permiten enterarte al instante de lo que pasa en Passix (una venta, un check-in, un reembolso) sin estar consultando la [API](/tecnico/api/) todo el tiempo. Son ideales para integrar con tu CRM, herramientas de marketing o bases de datos.
 
 ![Configuración de webhooks](/img/panel/ev-webhooks.png)
 
-## Para qué sirven
 ## Cómo funcionan
 
-- Actualizar tu CRM o planilla cuando entra una venta.
-- Sincronizar check-ins con otros sistemas.
-- Disparar automatizaciones cuando se crea, paga o cancela una orden.
-Cuando un evento configurado ocurre en Passix, enviamos una solicitud HTTP POST a una URL que vos definís. Esta solicitud contiene un payload JSON con los detalles del evento.
+1. Configurás una **URL** tuya (endpoint HTTPS).
+2. Cuando ocurre un evento suscripto, Passix le hace un **POST** con los datos en JSON.
+3. Tu servidor lo procesa (guarda la venta, dispara un email, etc.).
 
-## Dónde se configuran
 ## Configurar un webhook
 
-Podés configurarlos a nivel de **organización** o de **evento**, según qué querés escuchar.
-1.  Andá a **Configuración de la organización → Webhooks**.
-2.  Hacé clic en **Crear Webhook**.
-3.  Ingresá la **URL de tu endpoint** (donde Passix enviará las notificaciones).
-4.  Seleccioná los **eventos** a los que querés suscribirte (ej. `order.created`, `attendee.checked_in`).
-5.  Guardá.
+1. Andá a **Webhooks** (a nivel **organización** para integraciones globales, o a nivel **evento** para automatizaciones puntuales).
+2. Hacé clic en **Crear webhook**.
+3. Ingresá la **URL de tu endpoint**.
+4. Seleccioná los **eventos** a los que querés suscribirte.
+5. Guardá.
 
-- Organización: para integraciones globales.
-- Evento: para automatizaciones específicas de un show.
 ## Eventos soportados
 
-## Qué eventos escuchar
-Aquí algunos de los eventos que Passix puede notificar:
+| Evento | Cuándo se dispara |
+|---|---|
+| `product.created` · `product.updated` · `product.deleted` | Cambios en entradas/productos. |
+| `event.created` · `event.updated` · `event.archived` | Cambios en el evento. |
+| `order.created` | Se creó una orden (puede estar pendiente de pago). |
+| `order.updated` | Se actualizó una orden. |
+| `order.marked_as_paid` | Una orden se marcó como pagada. |
+| `order.refunded` | Se reembolsó una orden (total o parcial). |
+| `order.cancelled` | Se canceló una orden. |
+| `attendee.created` · `attendee.updated` · `attendee.cancelled` | Cambios en un asistente. |
+| `checkin.created` | Se validó un asistente en la puerta. |
+| `checkin.deleted` | Se deshizo un check-in. |
 
-Los eventos más útiles suelen ser:
--   `order.created`: Se creó una nueva orden (puede estar pendiente de pago).
--   `order.paid`: Una orden ha sido pagada y confirmada.
--   `order.refunded`: Una orden ha sido reembolsada (total o parcialmente).
--   `attendee.checked_in`: Un asistente ha sido validado en la puerta.
--   `attendee.transferred`: Una entrada ha sido transferida a otro asistente.
--   `event.published`: Un evento ha cambiado su estado a publicado.
+## Estructura del payload
 
-- **Orden creada**
-- **Orden pagada**
-- **Orden cancelada**
-- **Check-in realizado**
-- **Reembolso procesado**
-## Estructura del Payload
+Cada notificación es un JSON con esta forma general:
 
-## Buenas prácticas
-Cada notificación es un JSON con la siguiente estructura general:
-
-- Verificá la **firma** o el token del webhook si tu implementación lo soporta.
-- Respondé rápido con `2xx`; si no, Passix reintentará la entrega.
-- Diseñá el receptor para que sea **idempotente**: un evento puede llegar más de una vez.
 ```json
 {
-  "event": "order.paid",
+  "event": "order.marked_as_paid",
   "timestamp": "2026-07-01T10:30:00Z",
   "data": {
     "order_id": "ORD-12345",
@@ -67,8 +53,8 @@ Cada notificación es un JSON con la siguiente estructura general:
     "currency": "ARS",
     "buyer_email": "comprador@ejemplo.com",
     "tickets": [
-      {"ticket_id": "TKT-111", "type": "General", "price": 10000},
-      {"ticket_id": "TKT-222", "type": "VIP", "price": 5000}
+      { "ticket_id": "TKT-111", "type": "General", "price": 10000 },
+      { "ticket_id": "TKT-222", "type": "VIP", "price": 5000 }
     ]
   }
 }
@@ -76,13 +62,18 @@ Cada notificación es un JSON con la siguiente estructura general:
 
 ## Seguridad
 
-Para verificar la autenticidad de las notificaciones, Passix incluye una **firma digital** en el header de la solicitud. Deberías validar esta firma en tu endpoint para asegurarte de que la notificación proviene de Passix y no ha sido alterada.
+Cada webhook tiene un **secreto (secret)** que se genera al crearlo. Usalo en tu endpoint para verificar que la notificación viene de Passix y no de un tercero. Guardá ese secreto de forma segura.
 
-:::note
-Si solo querés leer datos bajo demanda, usá la [API pública](/tecnico/api/). Si querés reaccionar en tiempo real, usá webhooks.
-:::
+## Buenas prácticas
+
+- Respondé rápido con `2xx`; procesá lo pesado en segundo plano.
+- Hacé tu endpoint **idempotente**: un mismo evento puede llegar más de una vez.
+- Si tu endpoint falla, Passix **reintenta** la entrega.
 
 ## Testing
 
-Puedes usar herramientas como Webhook.site o ngrok para probar tus endpoints de webhook durante el desarrollo.
+Durante el desarrollo podés usar herramientas como **Webhook.site** o **ngrok** para inspeccionar los envíos y probar tu endpoint.
+
+:::note
+Si solo querés leer datos bajo demanda, usá la [API pública](/tecnico/api/). Si querés reaccionar en tiempo real, usá webhooks.
 :::

@@ -7,8 +7,6 @@ sidebar:
 
 La **organización** es la entidad bajo la que vendés. Desde su panel ves todos tus eventos juntos y configurás lo que aplica a todos.
 
-![Listado de eventos de la organización](/img/panel/events-list.png)
-
 ## Qué encontrás
 
 - **Todos tus eventos** (activos, borradores y pasados).

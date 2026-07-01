@@ -17,7 +17,7 @@ Una **lista de check-in** define un punto de validación: qué entradas se valid
 
 ## Crear una lista
 
-1. En el evento, andá a **Listas de check-in**.
+1. En el evento, andá a **Listas de registro** (menú **Gestión de invitados**).
 2. **Crear lista** y ponele nombre (ej. "Puerta principal").
 3. Elegí qué **entradas** valida.
 4. Opcional: definí **fecha/hora** de apertura y cierre del check-in.

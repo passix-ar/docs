@@ -11,7 +11,7 @@ Las **entradas** (productos) son lo que vendés dentro del evento. Podés tener 
 
 ## Crear una entrada
 
-1. En el evento, andá a **Entradas / Productos**.
+1. En el evento, andá a **Entradas y productos** (menú **Venta de boletos**).
 2. Hacé clic en **Crear entrada**.
 3. Completá:
    - **Nombre** (ej. General, VIP, Early Bird).
@@ -28,6 +28,7 @@ Las **entradas** (productos) son lo que vendés dentro del evento. Podés tener 
 | **Gratis** | Sin costo; igual genera entrada con QR. |
 | **A voluntad / donación** | El comprador elige cuánto pagar (con mínimo opcional). |
 | **Por niveles (tiered)** | Varios precios en una misma entrada, ej. escalonados por fecha o cantidad. |
+| **Registro** | Sin pago, para anotarse (RSVP): la persona se registra y recibe su entrada. |
 
 ## Niveles y preventas
 

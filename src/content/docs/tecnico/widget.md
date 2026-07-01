@@ -37,11 +37,10 @@ El **widget** te deja mostrar el flujo de compra de Passix embebido en tu web, e
 - Probalo primero en un entorno de desarrollo.
 - Escuchá el resultado final por **webhook** además de la respuesta visual del widget.
 - Mostrá un mensaje claro si la compra queda en estado pendiente.
-## Eventos del widget
 
 ## Estilos y CSS
 
-El widget carga sus propios estilos. Para overrides menores, puedes usar CSS global en tu página.
+El widget carga sus propios estilos. Para retoques menores podés usar CSS global en tu página.
 
 :::tip
 Si integrás el widget, combiná esta guía con [API pública](/tecnico/api/) y [Webhooks](/tecnico/webhooks/) para tener el flujo completo.

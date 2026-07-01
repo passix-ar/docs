@@ -22,21 +22,42 @@ Todo se actualiza en tiempo real a medida que entran ventas.
 
 ## Secciones del menú
 
-| Sección | Para qué |
+El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nombre exacto del ítem tal como aparece en Passix.
+
+**Resumen**
+
+| Ítem del menú | Para qué |
 |---|---|
-| **Resumen** | Métricas y actividad reciente |
-| **Entradas / Productos** | Crear y editar lo que vendés → [ver](/evento/entradas/) |
-| **Órdenes** | Ver y gestionar compras → [ver](/ventas/ordenes/) |
-| **Asistentes** | Lista de personas con entrada → [ver](/ventas/asistentes/) |
+| **Dashboard** | Métricas y actividad reciente. |
+| **Informes** | Estadísticas y exportación → [ver](/ventas/reportes/) |
+
+**Configuración y diseño**
+
+| Ítem del menú | Para qué |
+|---|---|
+| **Configuración del evento** | Datos, pagos y opciones → [ver](/evento/configuracion/) |
+| **Diseñador de página de inicio** | Look de la página pública → [ver](/evento/pagina/) |
+| **Diseñador de boletos** | Diseño del ticket con QR → [ver](/evento/diseno-entradas/) |
+| **Preguntas de registro** | Datos que pedís en el checkout → [ver](/evento/preguntas/) |
+
+**Venta de boletos**
+
+| Ítem del menú | Para qué |
+|---|---|
+| **Entradas y productos** | Crear y editar lo que vendés → [ver](/evento/entradas/) |
+| **Pedidos** | Ver y gestionar compras → [ver](/ventas/ordenes/) |
 | **Códigos promocionales** | Descuentos y accesos → [ver](/evento/codigos-promocionales/) |
-| **Preguntas** | Datos que pedís en el checkout → [ver](/evento/preguntas/) |
-| **Listas de check-in** | Validación en puerta → [ver](/check-in/listas/) |
-| **Capacidad** | Control de aforo → [ver](/evento/capacidad/) |
-| **Lista de espera** | Cuando se agota → [ver](/evento/lista-espera/) |
+| **Afiliados** | Medir ventas por promotor → [ver](/organizacion/afiliados/) |
+
+**Gestión de invitados**
+
+| Ítem del menú | Para qué |
+|---|---|
+| **Asistentes** | Personas con entrada → [ver](/ventas/asistentes/) |
+| **Listas de registro** | Validación en puerta → [ver](/check-in/listas/) |
 | **Mensajes** | Emails a asistentes → [ver](/ventas/mensajes/) |
-| **Reportes** | Estadísticas y export → [ver](/ventas/reportes/) |
-| **Diseñar página** | Look de la página pública → [ver](/evento/pagina/) |
-| **Configuración** | Datos, pagos y opciones → [ver](/evento/configuracion/) |
+| **Lista de espera** | Cuando se agota → [ver](/evento/lista-espera/) |
+| **Gestión de capacidad** | Control de aforo → [ver](/evento/capacidad/) |
 
 ## Estado del evento
 

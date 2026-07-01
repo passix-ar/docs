@@ -5,7 +5,7 @@ sidebar:
   order: 5
 ---
 
-Con el **diseñador de entradas** (Ticket Designer) personalizás cómo se ve el ticket con QR que recibe cada asistente.
+Con el **Diseñador de boletos** personalizás cómo se ve el ticket con QR que recibe cada asistente. Lo encontrás en el menú **Configuración y diseño** del evento.
 
 ![Diseñador de boletos](/img/panel/ev-ticket-designer.png)
 
@@ -36,5 +36,5 @@ El asistente puede:
 - Incluí instrucciones claras de ingreso (puerta, horario, qué presentar).
 
 :::note
-El QR se valida **una sola vez**. Si una entrada se transfiere, el QR anterior deja de servir. Ver [Transferir entradas](/compradores/transferir/).
+El QR se valida **una sola vez**: si se vuelve a escanear, aparece como ya usado. Así evitás ingresos duplicados con la misma entrada.
 :::
