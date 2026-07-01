@@ -1,0 +1,31 @@
+---
+title: Capacidad y aforo
+description: Controlá el aforo total del evento o compartí un cupo entre varias entradas.
+sidebar:
+  order: 8
+---
+
+Las **asignaciones de capacidad** te dejan limitar el aforo total, más allá del stock de cada entrada.
+
+## Para qué sirve
+
+A veces querés un **tope compartido** entre varias entradas. Por ejemplo:
+
+- El lugar entra 500 personas, pero vendés *General*, *VIP* y *Combo* por separado. Con una capacidad de **500 compartida** entre las tres, cuando la suma llega a 500 se cierran todas, sin importar el stock individual.
+
+## Crear una asignación
+
+1. En el evento, andá a **Capacidad**.
+2. **Crear asignación** y ponele un nombre (ej. "Aforo salón").
+3. Definí el **límite** total.
+4. Asociá las **entradas** que comparten ese cupo.
+
+## Cómo funciona
+
+- Passix descuenta del cupo cada vez que se vende una entrada asociada.
+- Al llegar al límite, esas entradas quedan **agotadas** aunque tuvieran stock propio.
+- Podés tener **varias** asignaciones (ej. aforo por sector).
+
+:::tip
+Combiná capacidad con [lista de espera](/evento/lista-espera/): cuando el aforo se llena, capturás interesados por si se liberan lugares.
+:::

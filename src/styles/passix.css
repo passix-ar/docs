@@ -1,0 +1,161 @@
+/* ============================================================
+   PASSIX DOCS — branding sobre Starlight
+   Reusa el sistema de diseño de la landing (getpassix.com):
+   dark editorial · acento lima eléctrico · Syne + Hanken Grotesk
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+/* ---------- Fuentes ---------- */
+:root {
+  --sl-font: 'Hanken Grotesk', sans-serif;
+  --sl-font-headings: 'Syne', sans-serif;
+}
+
+/* ---------- Forzar modo claro ---------- */
+html,
+:root {
+  color-scheme: light;
+}
+
+starlight-theme-select {
+  display: none !important;
+}
+
+header [aria-label='Select theme'],
+header [aria-label='Seleccionar tema'] {
+  display: none !important;
+}
+
+/* ---------- Modo oscuro (default) ---------- */
+:root {
+  /* acento lima — firma de marca */
+  --sl-color-accent-low: #2c3a05;
+  --sl-color-accent: #9ccf00;
+  --sl-color-accent-high: #d9f77a;
+
+  --sl-color-white: #f4f1ea;
+  --sl-color-gray-1: #e7e5df;
+  --sl-color-gray-2: #cfcdc6;
+  --sl-color-gray-3: #8e8e98;
+  --sl-color-gray-4: #55545f;
+  --sl-color-gray-5: #26262f;
+  --sl-color-gray-6: #16161d;
+  --sl-color-black: #0b0b0e;
+
+  --sl-color-bg: #0b0b0e;
+  --sl-color-bg-nav: #131319;
+  --sl-color-bg-sidebar: #0e0e13;
+  --sl-color-hairline: #26262f;
+  --sl-color-text-accent: #c6f21e;
+}
+
+/* ---------- Modo claro (paper cálido) ---------- */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #e4eeb0;
+  --sl-color-accent: #7ea600;
+  --sl-color-accent-high: #3f5400;
+
+  --sl-color-white: #1a1a20;
+  --sl-color-gray-1: #1a1a20;
+  --sl-color-gray-2: #34343d;
+  --sl-color-gray-3: #76747f;
+  --sl-color-gray-4: #8c8a94;
+  --sl-color-gray-5: #d6d2c7;
+  --sl-color-gray-6: #e5e2d9;
+  --sl-color-gray-7: #f4f2ec;
+  --sl-color-black: #eceae3;
+
+  --sl-color-bg: #eceae3;
+  --sl-color-bg-nav: #e5e2d9;
+  --sl-color-bg-sidebar: #e5e2d9;
+  --sl-color-hairline: #d6d2c7;
+  --sl-color-text-accent: #7ea600;
+}
+
+/* ---------- Headings con Syne (como la landing) ---------- */
+h1, h2, h3, .site-title {
+  font-family: var(--sl-font-headings);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+h4, h5, h6 {
+  font-family: var(--sl-font-headings);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Botones pill lima con glow (como .btn-primary) ---------- */
+.sl-link-button {
+  border-radius: 999px !important;
+  font-weight: 600;
+  transition: transform 0.18s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.sl-link-button.primary {
+  background: var(--sl-color-text-accent);
+  color: #0a0b05;
+  border-color: transparent;
+}
+.sl-link-button.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -8px rgba(198, 242, 30, 0.45);
+}
+.sl-link-button.minimal:hover {
+  color: var(--sl-color-text-accent);
+}
+
+/* ---------- Cards con gradiente y borde (como .feat) ---------- */
+.card {
+  border: 1px solid var(--sl-color-hairline) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(180deg, var(--sl-color-bg-nav), transparent) !important;
+  transition: transform 0.18s ease, border-color 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--sl-color-accent);
+}
+.card .icon {
+  background: rgba(198, 242, 30, 0.12);
+  border-radius: 12px;
+  padding: 0.35em;
+  color: var(--sl-color-text-accent);
+}
+
+/* ---------- Links de contenido en lima ---------- */
+.sl-markdown-content a:not(.card):not(.sl-link-button) {
+  color: var(--sl-color-text-accent);
+  text-decoration-color: var(--sl-color-accent-low);
+}
+
+/* ---------- Grano + gradientes radiales (como la landing) ---------- */
+body {
+  background-image:
+    radial-gradient(900px 500px at 78% -8%, rgba(198, 242, 30, 0.08), transparent 60%),
+    radial-gradient(700px 400px at 0% 12%, rgba(255, 106, 69, 0.04), transparent 55%);
+  background-attachment: fixed;
+}
+
+:root[data-theme='light'] body {
+  background-image:
+    radial-gradient(900px 500px at 78% -8%, rgba(150, 184, 0, 0.06), transparent 62%),
+    radial-gradient(700px 400px at 0% 12%, rgba(255, 106, 69, 0.02), transparent 55%);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+:root[data-theme='light'] body::before { opacity: 0.08; }
+
+/* ---------- Bordes redondeados marca ---------- */
+.card, .starlight-aside {
+  border-radius: 14px;
+}
