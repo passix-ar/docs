@@ -20,12 +20,25 @@ export default defineConfig({
         replacesTitle: false,
       },
       customCss: ['./src/styles/passix.css'],
-      // Modo claro fijo.
+      favicon: '/favicon.svg',
+      // Modo claro fijo + favicons de marca (light/dark + apple-touch).
       head: [
         {
           tag: 'script',
           content:
             "try{localStorage.setItem('starlight-theme','light');document.documentElement.dataset.theme='light';document.documentElement.style.colorScheme='light';}catch(e){}",
+        },
+        {
+          tag: 'link',
+          attrs: { rel: 'icon', type: 'image/png', href: '/favicon-light.png', media: '(prefers-color-scheme: light)' },
+        },
+        {
+          tag: 'link',
+          attrs: { rel: 'icon', type: 'image/png', href: '/favicon-dark.png', media: '(prefers-color-scheme: dark)' },
+        },
+        {
+          tag: 'link',
+          attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
         },
       ],
       social: [
