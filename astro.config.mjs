@@ -37,7 +37,6 @@ export default defineConfig({
         {
           label: 'Empezar',
           items: [
-            { label: 'Bienvenido a Passix', link: '/' },
             { label: 'Crear tu cuenta', link: '/empezar/crear-cuenta/' },
             { label: 'Tu primer evento en 10 min', link: '/empezar/primer-evento/' },
             { label: 'Conceptos clave', link: '/empezar/conceptos/' },

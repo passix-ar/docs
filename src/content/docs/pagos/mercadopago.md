@@ -23,7 +23,7 @@ Esto usa la conexión oficial de MercadoPago (OAuth): Passix nunca ve tu contras
 
 - El comprador paga con **tarjeta, dinero en cuenta o efectivo**.
 - El pago se acredita en **tu** cuenta de MercadoPago.
-- Passix descuenta su **comisión** automáticamente (marketplace).
+- La **comisión de plataforma** se separa automáticamente vía el marketplace de MercadoPago. Vos elegís si la **paga el comprador** o la **asumís vos** → ver [Cómo cobra Passix](/pagos/como-cobra-passix/).
 - La confirmación del pago llega por **webhook**: la orden se marca como pagada sola, sin que hagas nada.
 
 ## Requisitos

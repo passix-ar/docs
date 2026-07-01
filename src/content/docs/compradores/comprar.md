@@ -7,6 +7,8 @@ sidebar:
 
 Comprar una entrada en Passix es rápido y seguro. El pago se procesa con **MercadoPago**.
 
+![Página pública de un evento con sus entradas](/img/panel/evento-publico.png)
+
 ## Paso a paso
 
 1. Abrí el **link del evento** que te compartieron.
