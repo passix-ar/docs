@@ -7,6 +7,8 @@ sidebar:
 
 Los **reportes** te dan la foto de cómo va tu evento y te permiten exportar datos.
 
+![Informes y estadísticas del evento](/img/panel/ev-reports.png)
+
 ## Métricas principales
 
 - **Entradas vendidas** por tipo.

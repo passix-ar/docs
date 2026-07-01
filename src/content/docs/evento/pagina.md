@@ -7,6 +7,8 @@ sidebar:
 
 El **diseñador de página** (Homepage Designer) controla cómo se ve la página pública de tu evento: la que abren tus compradores.
 
+![Diseñador de la página del evento](/img/panel/ev-homepage-designer.png)
+
 ## Qué podés personalizar
 
 - **Portada / imagen de cabecera**.

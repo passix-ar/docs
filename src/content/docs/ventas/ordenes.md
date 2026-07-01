@@ -7,6 +7,8 @@ sidebar:
 
 Una **orden** es cada compra que hace una persona. Agrupa una o más entradas y guarda el estado del pago, los datos del comprador y las respuestas del checkout.
 
+![Listado de pedidos/órdenes](/img/panel/ev-orders.png)
+
 ## Ver las órdenes
 
 En el evento, andá a **Órdenes**. Ves la lista con: comprador, total, estado, medio de pago y fecha. Podés **buscar** por nombre/email y **filtrar** por estado.

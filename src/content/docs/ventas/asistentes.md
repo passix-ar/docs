@@ -7,6 +7,8 @@ sidebar:
 
 Un **asistente** es cada persona que ingresa con una entrada. Una orden de 3 entradas genera 3 asistentes, cada uno con su **QR** propio.
 
+![Listado de asistentes](/img/panel/ev-attendees.png)
+
 ## Ver los asistentes
 
 En el evento, andá a **Asistentes**. Ves nombre, email, tipo de entrada y estado de **check-in**. Podés **buscar** y **filtrar** (por entrada, por ingresados/pendientes).

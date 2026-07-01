@@ -7,6 +7,8 @@ sidebar:
 
 Una **lista de check-in** define un punto de validación: qué entradas se validan ahí y en qué ventana horaria. Es lo que usa tu staff para escanear en la puerta.
 
+![Listas de check-in del evento](/img/panel/ev-check-in.png)
+
 ## Por qué usar listas
 
 - Separar **puertas o accesos** (ej. "Puerta general", "Acceso VIP").

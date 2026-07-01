@@ -7,6 +7,8 @@ sidebar:
 
 En **Configuración** definís todos los datos y el comportamiento de tu evento.
 
+![Configuración del evento](/img/panel/ev-settings.png)
+
 ## Datos básicos
 
 - **Nombre** del evento.

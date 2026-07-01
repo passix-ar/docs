@@ -7,6 +7,8 @@ sidebar:
 
 Los **afiliados** te permiten medir cuántas ventas trae cada promotor, RRPP o canal, usando un link propio para cada uno.
 
+![Gestión de afiliados](/img/panel/ev-affiliates.png)
+
 ## Para qué sirve
 
 - Saber qué **RRPP / promotor** vendió más.

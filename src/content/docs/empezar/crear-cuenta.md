@@ -5,6 +5,8 @@ description: Registrate en Passix y dejá tu organización lista para vender ent
 
 Crear tu cuenta en Passix toma un par de minutos y te deja listo para publicar eventos y cobrar.
 
+![Pantalla de inicio de sesión de Passix](/img/panel/login.png)
+
 ## Registrarte
 
 1. Entrá a [getpassix.com](https://getpassix.com) y hacé clic en **Crear cuenta**.

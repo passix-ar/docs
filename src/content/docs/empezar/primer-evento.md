@@ -5,6 +5,8 @@ description: Guía rápida de punta a punta para publicar tu primer evento y emp
 
 Esta guía te lleva de cero a **vender tu primera entrada**. Cada paso enlaza a su documentación detallada.
 
+![Pasos para preparar tu evento en el panel](/img/panel/ev-getting-started.png)
+
 ## 1. Conectá MercadoPago
 
 Antes de vender, conectá tu cuenta de cobro para que el dinero te llegue.

@@ -7,6 +7,8 @@ sidebar:
 
 Passix cobra a través de **MercadoPago**. Conectás tu cuenta una vez y el dinero de cada venta te llega directo.
 
+![Conectar MercadoPago desde el panel](/img/panel/ev-getting-started.png)
+
 ## Conectar tu cuenta
 
 1. Andá a **Configuración de la organización → Pagos**.

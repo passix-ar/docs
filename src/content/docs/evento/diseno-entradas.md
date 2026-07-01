@@ -7,6 +7,8 @@ sidebar:
 
 Con el **diseñador de entradas** (Ticket Designer) personalizás cómo se ve el ticket con QR que recibe cada asistente.
 
+![Diseñador de boletos](/img/panel/ev-ticket-designer.png)
+
 ## Qué incluye el ticket
 
 - **Código QR** único (lo que se escanea en la puerta).

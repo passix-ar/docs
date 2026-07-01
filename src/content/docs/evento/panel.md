@@ -7,6 +7,8 @@ sidebar:
 
 El **panel del evento** es el centro de control de cada evento. Al entrar ves un resumen y, en el menú lateral, todas las herramientas de gestión.
 
+![Panel del evento con métricas en tiempo real](/img/panel/ev-dashboard.png)
+
 ## Resumen (Dashboard)
 
 Apenas abrís el evento ves las métricas clave:

@@ -7,6 +7,8 @@ sidebar:
 
 Con **Preguntas** pedís información adicional durante la compra, además de nombre y email.
 
+![Preguntas de registro del checkout](/img/panel/ev-questions.png)
+
 ## Tipos de pregunta
 
 - **Por orden**: se pregunta una vez por compra (ej. "¿Cómo nos conociste?").

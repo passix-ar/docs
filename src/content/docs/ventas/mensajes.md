@@ -7,6 +7,8 @@ sidebar:
 
 Con **Mensajes** enviás emails a tus compradores y asistentes desde Passix: recordatorios, cambios de último momento o info útil.
 
+![Mensajes a asistentes](/img/panel/ev-messages.png)
+
 ## A quién podés escribir
 
 - **Todos** los asistentes del evento.

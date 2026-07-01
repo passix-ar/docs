@@ -7,6 +7,8 @@ sidebar:
 
 La **lista de espera** (waitlist) se activa cuando una entrada o el evento se **agota**: en lugar de perder al interesado, capturás su email para avisarle si se libera lugar.
 
+![Configuración de lista de espera](/img/panel/ev-sold-out-waitlist.png)
+
 ## Activarla
 
 1. En el evento, andá a **Lista de espera**.

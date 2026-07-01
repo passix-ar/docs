@@ -7,6 +7,8 @@ sidebar:
 
 Las **entradas** (productos) son lo que vendés dentro del evento. Podés tener varias, cada una con su precio, stock y reglas.
 
+![Listado de entradas y productos del evento](/img/panel/ev-products.png)
+
 ## Crear una entrada
 
 1. En el evento, andá a **Entradas / Productos**.

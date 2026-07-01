@@ -7,6 +7,8 @@ sidebar:
 
 Las **asignaciones de capacidad** te dejan limitar el aforo total, más allá del stock de cada entrada.
 
+![Gestión de capacidad y aforo](/img/panel/ev-capacity-assignments.png)
+
 ## Para qué sirve
 
 A veces querés un **tope compartido** entre varias entradas. Por ejemplo:

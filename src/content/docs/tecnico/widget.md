@@ -7,6 +7,8 @@ sidebar:
 
 El **widget** te deja mostrar el flujo de compra de Passix embebido en tu web, en lugar de mandar al comprador a una página separada.
 
+![Widget embebible del evento](/img/panel/ev-widget.png)
+
 ## Qué resuelve
 
 - Mantener al comprador dentro de tu sitio.

@@ -1,6 +1,5 @@
 ---
 title: Webhooks
-description: Recibí eventos en tiempo real cuando cambia una venta, un check-in o una configuración.
 description: Recibí notificaciones en tiempo real de eventos en Passix para integrar con tus sistemas.
 sidebar:
   order: 2
@@ -8,6 +7,8 @@ sidebar:
 
 Los **webhooks** te permiten enterarte al instante de lo que pasa en Passix sin estar consultando la API todo el tiempo.
 Los **webhooks** te permiten recibir notificaciones automáticas en tiempo real cuando ocurren eventos importantes en Passix (ej. una nueva venta, un check-in). Esto es ideal para integrar Passix con tus propios sistemas, CRM, herramientas de marketing o bases de datos sin necesidad de hacer *polling* a la API.
+
+![Configuración de webhooks](/img/panel/ev-webhooks.png)
 
 ## Para qué sirven
 ## Cómo funcionan

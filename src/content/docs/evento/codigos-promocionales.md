@@ -7,6 +7,8 @@ sidebar:
 
 Los **códigos promocionales** te dejan dar descuentos o habilitar entradas ocultas a quien tenga el código.
 
+![Códigos promocionales del evento](/img/panel/ev-promo-codes.png)
+
 ## Crear un código
 
 1. En el evento, andá a **Códigos promocionales**.
