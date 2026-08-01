@@ -32,6 +32,10 @@ En **Configuración** definís todos los datos y el comportamiento de tu evento.
 - Método(s) de pago habilitados: **MercadoPago** y/o **pago offline**.
 - Ver [Cómo cobra Passix](/pagos/como-cobra-passix/) y [MercadoPago](/pagos/mercadopago/).
 
+Un evento **publicado** tiene que quedarse siempre con al menos un método con el que cobrar. Si intentás destildarlos todos, no te va a dejar guardar: pasalo a **Borrador** primero.
+
+Ojo con esto: tener MercadoPago tildado no alcanza si la cuenta de la organización no está conectada. En ese caso el evento se comporta como si no tuviera ese método, y para publicarlo vas a necesitar [conectar MercadoPago](/pagos/mercadopago/) o habilitar el [pago offline](/pagos/offline/).
+
 ## Ajustes del checkout
 
 - **Tiempo de reserva**: cuántos minutos se le reservan las entradas a un comprador mientras paga.

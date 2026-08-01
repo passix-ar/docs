@@ -9,7 +9,7 @@ Esta guía te lleva de cero a **vender tu primera entrada**. Cada paso enlaza a 
 
 ## 1. Conectá MercadoPago
 
-Antes de vender, conectá tu cuenta de cobro para que el dinero te llegue.
+Antes de vender, conectá tu cuenta de cobro para que el dinero te llegue. Sin un método de pago no vas a poder publicar el evento: si todavía no querés usar MercadoPago, habilitá el [pago offline](/pagos/offline/).
 
 → [Cobrar con MercadoPago](/pagos/mercadopago/)
 
@@ -35,6 +35,8 @@ Personalizá la portada, colores y descripción con el **diseñador de página**
 
 Cuando esté listo, cambiá el estado de **Borrador** a **Publicado** y compartí el link. ¡Ya podés vender!
 
+Si al publicar te aparece un error, es porque el evento no tiene un método de pago con el que cobrar: revisá que MercadoPago esté conectado o que tengas habilitado el pago offline en la [configuración del evento](/evento/configuracion/).
+
 ## 6. El día del evento, validá
 
 Creá una **lista de check-in** y escaneá los QR en la puerta desde el celular.
@@ -44,7 +46,7 @@ Creá una **lista de check-in** y escaneá los QR en la puerta desde el celular.
 ---
 
 :::tip[Checklist antes de publicar]
-- [ ] MercadoPago conectado
+- [ ] MercadoPago conectado **o** pago offline habilitado — sin esto no se puede publicar
 - [ ] Al menos una entrada creada con stock
 - [ ] Fecha, hora y lugar correctos
 - [ ] Portada y descripción cargadas

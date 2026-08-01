@@ -7,6 +7,8 @@ sidebar:
 
 El **pago offline** te permite aceptar transferencias bancarias, efectivo u otro medio por fuera de MercadoPago. Vos confirmás el pago a mano cuando lo recibís.
 
+También es la salida cuando MercadoPago no está disponible: sirve para **publicar un evento** sin tener MercadoPago conectado, y para **destrabar la desconexión** de MercadoPago en eventos ya publicados.
+
 ## Activarlo
 
 1. En la [configuración del evento](/evento/configuracion/), habilitá **pago offline**.
