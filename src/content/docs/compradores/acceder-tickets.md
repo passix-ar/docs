@@ -26,6 +26,8 @@ Usá la **búsqueda de entradas**: en la pantalla de acceso de Passix hacé clic
 
 Mostrá el **QR** desde el celular (o impreso). El personal lo escanea y listo. Cada QR se valida **una sola vez**.
 
+Si el evento tiene asientos numerados, tu **butaca** figura en la entrada (por ejemplo `Platea - B7`): es donde te tenés que sentar.
+
 ## Consejos
 
 - Llevá el celular **cargado** y con brillo suficiente para que lea el QR.

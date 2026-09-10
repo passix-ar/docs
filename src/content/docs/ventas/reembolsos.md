@@ -18,7 +18,7 @@ El reembolso se procesa a través de **MercadoPago**, hacia el mismo medio de pa
 
 ## Cancelar vs. reembolsar
 
-- **Cancelar**: anula la orden/entrada y **libera el stock**. No necesariamente devuelve dinero.
+- **Cancelar**: anula la orden/entrada y **libera el stock** (y las [butacas](/evento/asientos/), si el evento tiene asientos numerados). No necesariamente devuelve dinero.
 - **Reembolsar**: devuelve el dinero al comprador (puede además cancelar la entrada).
 
 ## Efecto sobre las entradas

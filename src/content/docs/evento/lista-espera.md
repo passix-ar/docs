@@ -2,7 +2,7 @@
 title: Lista de espera
 description: Capturá interesados cuando tu evento o una entrada se agota.
 sidebar:
-  order: 9
+  order: 11
 ---
 
 La **lista de espera** (waitlist) se activa cuando una entrada o el evento se **agota**: en lugar de perder al interesado, capturás su email para avisarle si se libera lugar.

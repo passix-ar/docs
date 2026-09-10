@@ -36,7 +36,7 @@ El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nom
 | Ítem del menú | Para qué |
 |---|---|
 | **Configuración del evento** | Datos, pagos y opciones → [ver](/evento/configuracion/) |
-| **Diseñador de página de inicio** | Look de la página pública → [ver](/evento/pagina/) |
+| **Diseñador de página de inicio** | Look de la página pública e [imágenes](/evento/imagenes/) → [ver](/evento/pagina/) |
 | **Diseñador de boletos** | Diseño del ticket con QR → [ver](/evento/diseno-entradas/) |
 | **Preguntas de registro** | Datos que pedís en el checkout → [ver](/evento/preguntas/) |
 
@@ -58,6 +58,7 @@ El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nom
 | **Mensajes** | Emails a asistentes → [ver](/ventas/mensajes/) |
 | **Lista de espera** | Cuando se agota → [ver](/evento/lista-espera/) |
 | **Gestión de capacidad** | Control de aforo → [ver](/evento/capacidad/) |
+| **Asientos numerados** | Plano de butacas de la sala → [ver](/evento/asientos/) |
 
 ## Estado del evento
 

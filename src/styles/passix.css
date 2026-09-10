@@ -159,3 +159,18 @@ body::before {
 .card, .starlight-aside {
   border-radius: 14px;
 }
+
+/* ---------- Logo del header ----------
+   El lockup es apaisado (250x54), así que a la altura por defecto de Starlight se
+   comería el ancho del nav en mobile. Se fija por altura y se le pone tope de ancho. */
+.site-title img {
+  height: 1.75rem;
+  max-width: 150px;
+}
+
+@media (min-width: 50rem) {
+  .site-title img {
+    height: 2rem;
+    max-width: 172px;
+  }
+}

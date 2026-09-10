@@ -2,7 +2,7 @@
 title: Preguntas del checkout
 description: Pedí datos extra al comprador o a cada asistente durante la compra.
 sidebar:
-  order: 7
+  order: 9
 ---
 
 Con **Preguntas** pedís información adicional durante la compra, además de nombre y email.

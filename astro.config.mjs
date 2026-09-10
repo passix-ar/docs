@@ -13,11 +13,13 @@ export default defineConfig({
       locales: {
         root: { label: 'Español', lang: 'es' },
       },
+      // El mismo lockup (marca + wordmark) que el panel y la landing, así la
+      // documentación se lee como una página más de Passix y no como un sitio aparte.
       logo: {
-        light: './src/assets/icononegro.png',
-        dark: './src/assets/iconoverde.png',
+        light: './src/assets/passix-logo-light.svg',
+        dark: './src/assets/passix-logo-dark.svg',
         alt: 'Passix',
-        replacesTitle: false,
+        replacesTitle: true,
       },
       customCss: ['./src/styles/passix.css'],
       favicon: '/favicon.svg',

@@ -45,6 +45,10 @@ Con precios **por niveles** armás preventas escalonadas: *Early Bird $8.000*, *
 
 Agrupá entradas en **categorías** (ej. "Preventas", "Combos", "Mesas") para ordenar la página del comprador. Podés colapsar u ocultar categorías completas.
 
+## Butacas numeradas
+
+Si querés que el comprador elija **dónde se sienta**, vinculá la entrada a una sección de asientos: se le abre un plano de la sala y elige su butaca. La entrada sigue siendo la misma, solo cambia cómo se compra. Ver [Asientos numerados](/evento/asientos/).
+
 ## Impuestos y cargos
 
 A cada entrada podés asociarle **impuestos** o **cargos por servicio**. Ver [Impuestos y cargos](/pagos/impuestos-cargos/).

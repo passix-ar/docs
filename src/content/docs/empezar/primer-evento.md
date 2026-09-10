@@ -27,9 +27,13 @@ Creá al menos un tipo de entrada con su **precio** y **cantidad disponible** (G
 
 ## 4. Diseñá la página del evento
 
-Personalizá la portada, colores y descripción con el **diseñador de página**. Así es como te ven los compradores.
+Subí tu **flyer**, elegí colores y escribí la descripción con el **diseñador de página**. Así es como te ven los compradores.
 
-→ [Diseñar la página del evento](/evento/pagina/)
+→ [Diseñar la página del evento](/evento/pagina/) · [Imágenes del evento](/evento/imagenes/)
+
+:::note[¿Tu evento tiene butacas?]
+Si es un teatro, un auditorio o una cena con mesas, podés armar el **plano de la sala** para que cada comprador elija su asiento. Hacelo antes de publicar → [Asientos numerados](/evento/asientos/).
+:::
 
 ## 5. Publicá y compartí
 
@@ -49,6 +53,7 @@ Creá una **lista de check-in** y escaneá los QR en la puerta desde el celular.
 - [ ] MercadoPago conectado **o** pago offline habilitado — sin esto no se puede publicar
 - [ ] Al menos una entrada creada con stock
 - [ ] Fecha, hora y lugar correctos
-- [ ] Portada y descripción cargadas
+- [ ] Flyer cuadrado y descripción cargados
+- [ ] Si vendés butacas, el plano de la sala armado
 - [ ] Evento en estado **Publicado**
 :::

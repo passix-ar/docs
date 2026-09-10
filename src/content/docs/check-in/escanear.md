@@ -30,6 +30,10 @@ El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escane
 | 🔴 **Ya usada** | El QR ya fue escaneado antes. Posible duplicado. |
 | 🔴 **Inválida** | No corresponde a este evento/lista. |
 
+:::note[Eventos con butacas]
+Si tu evento tiene [asientos numerados](/evento/asientos/), la pantalla de check-in muestra la **butaca** junto al nombre del asistente (por ejemplo `Platea - B7`). Sirve para indicarle en el momento dónde sentarse, sin tener que buscar la orden.
+:::
+
 ## Consejos de operación
 
 - Poné **varias personas** escaneando en paralelo en horas pico (cada una con su lista).

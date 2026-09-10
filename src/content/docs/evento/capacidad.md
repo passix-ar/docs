@@ -2,7 +2,7 @@
 title: Capacidad y aforo
 description: Controlá el aforo total del evento o compartí un cupo entre varias entradas.
 sidebar:
-  order: 8
+  order: 10
 ---
 
 Las **asignaciones de capacidad** te dejan limitar el aforo total, más allá del stock de cada entrada.
@@ -31,3 +31,9 @@ A veces querés un **tope compartido** entre varias entradas. Por ejemplo:
 :::tip
 Combiná capacidad con [lista de espera](/evento/lista-espera/): cuando el aforo se llena, capturás interesados por si se liberan lugares.
 :::
+
+## Capacidad y butacas numeradas
+
+Son dos límites distintos que conviven. Si la entrada tiene [asientos numerados](/evento/asientos/), la asignación de capacidad se aplica **igual**: puede cerrar la venta antes de que se llene el plano.
+
+Cuando un sector se vende por butaca, la cantidad de asientos ya es su aforo. Usá capacidad compartida solo si el tope es **de la sala entera** y cruza varios sectores.

@@ -23,6 +23,9 @@ Cada compra que hace una persona. Agrupa una o más entradas y tiene un **estado
 ## Asistente (Attendee)
 La persona que efectivamente ingresa con una entrada. Una orden de 3 entradas genera 3 asistentes, cada uno con su **QR**. Ver [Asistentes](/ventas/asistentes/).
 
+## Sección de asientos
+Una grilla de **filas × butacas** vinculada a una entrada, para eventos con asientos numerados. El comprador elige su butaca sobre un plano de la sala. Ver [Asientos numerados](/evento/asientos/).
+
 ## Check-in
 El acto de validar la entrada de un asistente en la puerta escaneando su QR. Se organiza con **listas de check-in**. Ver [El día del evento](/check-in/listas/).
 
@@ -40,6 +43,7 @@ Un código que aplica **descuento** o habilita entradas ocultas. Ver [Códigos p
 Organización
 └── Evento
     ├── Productos / Entradas  →  se compran en una...
+    │   └── Sección de asientos (opcional: el comprador elige butaca)
     ├── Órdenes               →  cada una genera...
     │   └── Asistentes (QR)   →  se validan con...
     └── Listas de check-in

@@ -2,7 +2,7 @@
 title: Códigos promocionales
 description: Creá descuentos, preventas privadas y accesos a entradas ocultas con códigos promo.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Los **códigos promocionales** te dejan dar descuentos o habilitar entradas ocultas a quien tenga el código.

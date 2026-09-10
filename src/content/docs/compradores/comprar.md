@@ -13,9 +13,21 @@ Comprar una entrada en Passix es rápido y seguro. El pago se procesa con **Merc
 
 1. Abrí el **link del evento** que te compartieron.
 2. Elegí el **tipo de entrada** y la cantidad.
-3. Completá tus **datos** (nombre, email y lo que pida el organizador).
-4. Pagá con **MercadoPago**: tarjeta, dinero en cuenta o efectivo.
-5. Al confirmarse el pago, recibís tu entrada con **código QR** por email.
+3. Si el evento tiene **asientos numerados**, elegí tus butacas en el plano (ver abajo).
+4. Completá tus **datos** (nombre, email y lo que pida el organizador).
+5. Pagá con **MercadoPago**: tarjeta, dinero en cuenta o efectivo.
+6. Al confirmarse el pago, recibís tu entrada con **código QR** por email.
+
+## Si el evento tiene butacas
+
+Algunos eventos (teatros, auditorios, cenas) te dejan elegir **dónde te sentás**. Al elegir la cantidad se abre un plano de la sala:
+
+- Tocá las butacas **disponibles** hasta completar la cantidad que comprás.
+- Las **grises** ya están vendidas o alguien las tiene tomadas mientras paga.
+- No podés seguir al pago hasta elegir todas tus butacas.
+- Mientras pagás, tus butacas quedan **reservadas** unos minutos. Si demorás demasiado se liberan y puede que tengas que elegir otras.
+
+Tu butaca queda impresa en tu entrada (por ejemplo `Platea - B7`) y en el email de confirmación.
 
 ## Medios de pago
 

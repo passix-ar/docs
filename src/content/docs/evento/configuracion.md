@@ -38,13 +38,37 @@ Ojo con esto: tener MercadoPago tildado no alcanza si la cuenta de la organizaci
 
 ## Ajustes del checkout
 
-- **Tiempo de reserva**: cuántos minutos se le reservan las entradas a un comprador mientras paga.
+- **Tiempo de reserva**: cuántos minutos se le reservan las entradas a un comprador mientras paga. Por defecto son **15 minutos**. Pasado ese plazo, si no pagó, las entradas (y las [butacas](/evento/asientos/)) vuelven a estar disponibles para otros.
 - **Términos y condiciones** del evento.
 - **Mensaje de confirmación** que ve el comprador al terminar.
 
 ## SEO y compartir
 
-- **Imagen de portada** y textos para cuando el link se comparte en redes/WhatsApp.
+Textos e imagen para cuando el link se comparte en redes o WhatsApp. La imagen que se usa es el flyer del evento → ver [Imágenes del evento](/evento/imagenes/).
+
+## Duplicar un evento
+
+Si repetís una fecha, no arranques de cero: en el listado de eventos, desde el menú de la tarjeta del evento, elegí **Duplicar evento**.
+
+Se abre un formulario donde ponés el **nombre y las fechas nuevas** y tildás qué querés copiar:
+
+| Se puede copiar | |
+|---|---|
+| **Productos** | Tus entradas con precios y stock. |
+| **Preguntas** | Las [preguntas del checkout](/evento/preguntas/). |
+| **Ajustes** | La configuración del evento. |
+| **Códigos promocionales** | Los [códigos](/evento/codigos-promocionales/). |
+| **Asignaciones de capacidad** | Los topes de [aforo](/evento/capacidad/). |
+| **Listas de registro** | Las [listas de check-in](/check-in/listas/). |
+| **Imagen de portada del evento** | El flyer **y el banner destacado**. |
+| **Logo del Ticket** | El logo del [diseño de entradas](/evento/diseno-entradas/). |
+| **Webhooks** y **Afiliados** | Las integraciones y los [afiliados](/organizacion/afiliados/). |
+
+El evento nuevo se crea en **Borrador**, con cero ventas y sus propias entradas y QR.
+
+:::caution
+Lo que **no** se copia: las **secciones de [asientos numerados](/evento/asientos/)**. Si tu evento vende butacas, tenés que volver a armar el plano en el evento duplicado.
+:::
 
 :::tip
 Cargá bien la zona horaria y la moneda **antes** de vender: cambiarlas con ventas hechas puede confundir reportes.
