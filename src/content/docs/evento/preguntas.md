@@ -14,6 +14,10 @@ Con **Preguntas** pedís información adicional durante la compra, además de no
 - **Por orden**: se pregunta una vez por compra (ej. "¿Cómo nos conociste?").
 - **Por asistente**: se pregunta por cada entrada (ej. nombre, DNI, talle de remera).
 
+:::note
+Que se pidan datos de **cada** asistente o solo los del comprador depende de la configuración de recopilación de datos, que arranca con lo que definiste en los [valores predeterminados de tu organización](/organizacion/panel/). Si está en **por pedido**, las preguntas por asistente pierden sentido: todas las entradas quedan con los datos de quien compró.
+:::
+
 ## Formatos de respuesta
 
 - Texto corto / largo

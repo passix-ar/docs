@@ -7,6 +7,10 @@ sidebar:
 
 Con **Mensajes** enviás emails a tus compradores y asistentes desde Passix: recordatorios, cambios de último momento o info útil.
 
+:::note
+Esto es para los emails que escribís **vos**. Los que Passix manda solo en cada compra (confirmación y entrada con QR) se personalizan aparte → ver [Emails automáticos y plantillas](/organizacion/emails/).
+:::
+
 ![Mensajes a asistentes](/img/panel/ev-messages.png)
 
 ## A quién podés escribir

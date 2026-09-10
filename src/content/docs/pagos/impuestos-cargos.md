@@ -27,6 +27,8 @@ Passix te deja sumar **impuestos** y **cargos por servicio** a tus entradas, y d
 
 El comprador ve el desglose antes de pagar: precio de la entrada, impuestos, cargos y **total**. La transparencia evita reclamos.
 
+Podés elegir si el precio que se muestra ya **incluye** los impuestos y cargos, o si van **discriminados** aparte: es el *modo de visualización de precios*, en la [configuración del evento](/evento/configuracion/).
+
 :::note
 Los impuestos/cargos de Passix son independientes de la **comisión de MercadoPago** y de la **comisión de la plataforma**. Ver [Cómo cobra Passix](/pagos/como-cobra-passix/).
 :::
