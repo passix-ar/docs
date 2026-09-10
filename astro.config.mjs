@@ -13,11 +13,12 @@ export default defineConfig({
       locales: {
         root: { label: 'Español', lang: 'es' },
       },
-      // El mismo lockup (marca + wordmark) que el panel y la landing, así la
-      // documentación se lee como una página más de Passix y no como un sitio aparte.
+      // Lockup armado con los archivos reales de la app (logos/passix-mark.png +
+      // logos/passix-*-bg.svg), en la misma proporción que el sidebar del panel.
+      // Se genera con scripts/build-logo.mjs — no redibujar la marca a mano.
       logo: {
-        light: './src/assets/passix-logo-light.svg',
-        dark: './src/assets/passix-logo-dark.svg',
+        light: './src/assets/passix-logo-light.png',
+        dark: './src/assets/passix-logo-dark.png',
         alt: 'Passix',
         replacesTitle: true,
       },
