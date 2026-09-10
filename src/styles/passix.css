@@ -160,6 +160,36 @@ body::before {
   border-radius: 14px;
 }
 
+/* ---------- Marca del hero de la portada ----------
+   El SVG de la marca no trae aire alrededor (el círculo llena el viewBox), así que
+   a tamaño libre se come media pantalla. Se le pone tope. */
+.hero > img,
+.hero > .hero-html {
+  max-width: 210px;
+  max-height: 210px;
+  margin-inline: auto;
+}
+
+/* ---------- Avisos en la paleta de marca ----------
+   Starlight pinta las notas de azul y los consejos de verde genéricos, que sobre el
+   paper cálido se leen como de otro sitio. Caution y danger quedan como están: ahí
+   el color es la señal, no la decoración. */
+.starlight-aside--note {
+  --sl-color-asides-text-accent: var(--sl-color-white);
+  --sl-color-asides-border: var(--sl-color-gray-4);
+  background-color: color-mix(in srgb, var(--sl-color-gray-5) 40%, transparent);
+}
+
+.starlight-aside--tip {
+  --sl-color-asides-text-accent: var(--sl-color-text-accent);
+  --sl-color-asides-border: var(--sl-color-accent);
+  background-color: rgba(198, 242, 30, 0.1);
+}
+
+:root[data-theme='light'] .starlight-aside--tip {
+  background-color: rgba(126, 166, 0, 0.09);
+}
+
 /* ---------- Logo del header ----------
    El lockup es apaisado (250x54), así que a la altura por defecto de Starlight se
    comería el ancho del nav en mobile. Se fija por altura y se le pone tope de ancho. */
