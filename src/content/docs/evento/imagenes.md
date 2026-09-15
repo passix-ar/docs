@@ -35,11 +35,14 @@ El flyer que ya diseñaste para Instagram sirve tal cual: es el mismo formato cu
 
 Es el banner **apaisado** que se usa en el carrusel de destacados de la portada de Passix. Es opcional, pero es lo único que habilita a tu evento a entrar ahí.
 
-**Tiene que ser panorámico, 3:1** — 1920 × 640 es la medida exacta. Es la misma proporción que la portada de X/Twitter, así que Canva y cualquier editor la tienen como preset; si preferís, en Canva es *Tamaño personalizado* → 1920 × 640.
+**Medida: 1920 × 640 px (proporción 3:1).** Es la medida exacta de la franja de destacados, y entra entera en cualquier pantalla, de computadora o de celular.
 
-A diferencia del flyer, acá la proporción **sí se valida**: se aceptan imágenes entre 2.5:1 y 3.5:1 (el panel te avisa cuánto se recorta si no es 3:1 exacto), y todo lo demás se rechaza. Es a propósito: en un banner los bordes son justamente donde van el logo, la fecha y los sponsors, y un recorte se los come.
+A diferencia del flyer, acá la proporción **sí se valida**:
 
-**La portada de Facebook (1920 × 1005) y el flyer cuadrado de Instagram no sirven tal cual**: perderían un tercio o más. Armá el banner aparte, o pedile a una IA que adapte tu arte a 1920 × 640.
+- **Entre 2.5:1 y 3.5:1** la imagen se acepta. Si no es 3:1 exacto, el panel te muestra cómo va a quedar y te indica qué porcentaje se recorta en los bordes.
+- **Fuera de ese rango** la imagen no se acepta. El motivo es que la franja recortaría demasiado: una portada de Facebook (1920 × 1005) perdería más de un tercio de su altura, y un flyer cuadrado de Instagram, más de la mitad. En un banner, los bordes son justamente donde van el logo, la fecha y los sponsors.
+
+Si tu imagen tiene otra proporción, podés adaptarla a 1920 × 640 px con herramientas gratuitas como **Canva** (*Crear un diseño → Tamaño personalizado → 1920 × 640*), **Photopea** o **Adobe Express**. La proporción 3:1 es la misma que la del encabezado de X/Twitter, así que la mayoría de los editores la traen como preset.
 
 - Mínimo: 1500 × 500.
 - Máximo: 4000 × 4000 y 5 MB.
