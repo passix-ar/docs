@@ -25,7 +25,7 @@ En el evento, andá a **Pedidos** (menú **Venta de boletos**). Ves la lista con
 |---|---|
 | **Pagado** | Entró el dinero. |
 | **Pendiente** | Aún no confirmado. |
-| **Reembolsado** | Se devolvió (total o parcial). |
+| **Reembolsado** | Se devolvió el total desde MercadoPago (Passix lo registra solo). |
 
 ## Acciones sobre una orden
 
@@ -34,7 +34,7 @@ Abriendo una orden podés:
 - **Reenviar** el email con las entradas.
 - **Marcar como pagada** (para [pago offline](/pagos/offline/)).
 - **Cancelar** la orden y liberar el stock.
-- **Reembolsar** total o parcial → ver [Reembolsos](/ventas/reembolsos/).
+- Los **reembolsos** se hacen desde MercadoPago, no desde acá → ver [Reembolsos](/ventas/reembolsos/).
 - Ver las **respuestas** a las [preguntas del checkout](/evento/preguntas/).
 - Editar datos del comprador o de los asistentes.
 

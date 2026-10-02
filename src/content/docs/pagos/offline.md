@@ -12,7 +12,7 @@ También es la salida cuando MercadoPago no está disponible: sirve para **publi
 ## Activarlo
 
 1. En la [configuración del evento](/evento/configuracion/), habilitá **pago offline**.
-2. Cargá las **instrucciones** que verá el comprador (CBU/alias, datos de transferencia, contacto).
+2. Cargá las **instrucciones** que verá el comprador (CBU/alias, datos de transferencia, contacto). Podés insertar datos de la orden, como su número (`{{ order.public_id }}`), para que el comprador lo ponga como referencia en la transferencia: se reemplazan en el email, en la página de la orden y en el checkout.
 
 ## Cómo funciona
 

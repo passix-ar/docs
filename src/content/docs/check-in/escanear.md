@@ -19,10 +19,10 @@ El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escane
 
 ## Escanear en la puerta
 
-1. Abrí el **link de la lista de registro** desde el celular.
+1. Abrí el **link de la lista de registro** desde el celular. Al abrirlo, el celular **baja la lista completa** de asistentes: esperá a que diga que está sincronizada.
 2. Permití el acceso a la **cámara**.
 3. Apuntá al **QR** del asistente.
-4. El resultado es inmediato:
+4. El resultado es inmediato, porque se resuelve en el mismo celular sin esperar a internet:
 
 | Resultado | Significado |
 |---|---|
@@ -30,14 +30,28 @@ El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escane
 | 🔴 **Ya usada** | El QR ya fue escaneado antes. Posible duplicado. |
 | 🔴 **Inválida** | No corresponde a este evento/lista. |
 
-:::note[Eventos con butacas]
-Si tu evento tiene [asientos numerados](/evento/asientos/), la pantalla de check-in muestra la **butaca** junto al nombre del asistente (por ejemplo `Platea - B7`). Sirve para indicarle en el momento dónde sentarse, sin tener que buscar la orden.
+El aviso de cada escaneo muestra el **nombre** del asistente y el **tipo de entrada**. Si tu evento tiene [asientos numerados](/evento/asientos/), suma la **butaca**: por ejemplo `VIP · Platea B7`. Sirve para indicarle en el momento dónde sentarse, sin tener que buscar la orden.
+
+## Si se corta la señal
+
+El escáner **sigue funcionando sin conexión**. Los ingresos quedan guardados en el celular y se envían solos cuando vuelve la señal. Debajo del título vas a ver en qué estado está:
+
+| Mensaje | Qué significa |
+|---|---|
+| **Todos los check-ins sincronizados** | Todo está registrado en Passix. |
+| **Sincronizando…** | Hay ingresos esperando para enviarse. |
+| **Sin conexión — el escáner sigue funcionando** | Seguí escaneando: se envían cuando vuelva la señal. |
+
+La lista se actualiza sola cada minuto, así que también ves las ventas de último momento y los ingresos que registró otro celular.
+
+:::caution
+Sin conexión, **no recargues la página**: la pestaña abierta sigue funcionando, pero si la recargás sin señal no vuelve a abrir. Los ingresos pendientes no se pierden: se envían cuando la abrís de nuevo con conexión.
 :::
 
 ## Consejos de operación
 
 - Poné **varias personas** escaneando en paralelo en horas pico (cada una con su lista).
-- Tené **buena señal** o datos: el check-in necesita conexión para registrar el ingreso.
+- Abrí la lista **con señal antes de que empiece a entrar la gente**, para que el celular baje la lista completa.
 - Cargá los celulares o llevá **baterías**; la cámara consume.
 - Si un asistente no encuentra su QR, buscalo por **nombre o email** en [Asistentes](/ventas/asistentes/) y validá manualmente.
 

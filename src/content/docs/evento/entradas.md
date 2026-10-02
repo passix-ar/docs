@@ -37,7 +37,7 @@ Con precios **por niveles** armás preventas escalonadas: *Early Bird $8.000*, *
 ## Límites y disponibilidad
 
 - **Mínimo / máximo por orden**: cuántas puede comprar una persona.
-- **Fechas de venta**: desde/hasta cuándo está disponible.
+- **Fechas de venta**: desde/hasta cuándo está disponible. Fuera de esas fechas Passix **rechaza la compra**, aunque el comprador haya dejado la página abierta desde antes.
 - **Ocultar entrada**: la dejás no visible salvo con [código promocional](/evento/codigos-promocionales/).
 - **Stock**: cuando llega a 0, la entrada aparece **agotada** (podés activar [lista de espera](/evento/lista-espera/)).
 

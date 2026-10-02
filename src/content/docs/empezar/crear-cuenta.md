@@ -10,12 +10,12 @@ Crear tu cuenta en Passix toma un par de minutos y te deja listo para publicar e
 ## Registrarte
 
 1. Entrá a [getpassix.com](https://getpassix.com) y hacé clic en **Crear cuenta**.
-2. Completá **nombre, email y contraseña**.
-3. Aceptás los términos y hacés clic en **Registrarme**.
+2. Completá **nombre, apellido, razón social** (el nombre de tu productora, tu marca o el tuyo), **email y contraseña**. También podés registrarte con tu cuenta de **Google**.
+3. Aceptá los términos y hacé clic en **Registro**.
 4. Te llega un email de **confirmación**: abrilo y confirmá tu dirección.
 
 :::note
-Hasta que no confirmes el email, algunas acciones (como enviar mensajes o publicar) pueden estar limitadas.
+Hasta que no confirmes el email **no vas a poder publicar eventos**, y algunas otras acciones (como enviar mensajes) quedan limitadas. Si no lo encontrás, revisá el correo no deseado. El aviso para reenviarlo está en el panel (en el celular, en el menú **Más**).
 :::
 
 ## Tu organización
