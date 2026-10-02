@@ -11,13 +11,17 @@ Passix cobra a través de **MercadoPago**. Conectás tu cuenta una vez y el dine
 
 ## Conectar tu cuenta
 
-1. Andá a **Configuración de la organización → Pagos**.
+1. En el menú, entrá a **Cobrá → Configurar pagos**. Te lleva a **Configuraciones de la cuenta → Pago y plan**.
 2. Hacé clic en **Conectar MercadoPago**.
 3. Se abre MercadoPago: **iniciá sesión** con la cuenta donde querés cobrar.
 4. **Autorizá** a Passix a operar en tu nombre.
 5. Volvés al panel con la cuenta ya **vinculada**. ✅
 
 Esto usa la conexión oficial de MercadoPago (OAuth): Passix nunca ve tu contraseña de MP.
+
+La autorización se **renueva sola**: no tenés que volver a conectar la cuenta cada tantos meses.
+
+Si intentás **publicar un evento sin un método de pago**, Passix te avisa y te deja el atajo a mano: el botón **Conectar MercadoPago**, o el link para habilitar el [pago offline](/pagos/offline/) en ese evento. Cuando terminás, el botón **Volver al evento** te deja donde estabas.
 
 ## Cómo se cobra
 
@@ -33,7 +37,7 @@ Esto usa la conexión oficial de MercadoPago (OAuth): Passix nunca ve tu contras
 
 ## Desconectar tu cuenta
 
-En **Configuración de la organización → Pagos** tenés la opción **Desconectar**.
+En **Configuraciones de la cuenta → Pago y plan** tenés la opción **Desconectar**.
 
 Antes de desconectar, Passix revisa tus eventos publicados. Si alguno **solo** acepta MercadoPago, el botón queda bloqueado y te muestra cuáles son: desconectar los dejaría publicados y sin forma de cobrar. Para destrabarlo, en cada uno de esos eventos podés:
 
@@ -43,7 +47,7 @@ Antes de desconectar, Passix revisa tus eventos publicados. Si alguno **solo** a
 Si ninguno queda sin método, la desconexión sigue adelante y te avisa cuántos eventos publicados dejan de ofrecer MercadoPago.
 
 :::note
-Los pagos que ya se iniciaron **se acreditan igual**, y las órdenes anteriores no se ven afectadas. Los reembolsos de MercadoPago se hacen desde tu panel de MercadoPago, que sigue siendo tuyo.
+Los pagos que ya se iniciaron **se acreditan igual**, y las órdenes anteriores no se ven afectadas. Los reembolsos se hacen desde tu panel de MercadoPago, que sigue siendo tuyo → ver [Reembolsos](/ventas/reembolsos/).
 :::
 
 ## Estados de pago
@@ -57,7 +61,7 @@ Los pagos que ya se iniciaron **se acreditan igual**, y las órdenes anteriores 
 ## Problemas comunes
 
 - **"No me aparece la opción de pagar"**: revisá que MercadoPago esté **conectado** y habilitado en la [configuración del evento](/evento/configuracion/). Si la cuenta no está conectada, Passix **oculta** MercadoPago del checkout a propósito, para que el comprador no llegue a un pago que va a fallar.
-- **"Estaba conectado y dejó de aparecer"**: la autorización de MercadoPago **vence** cada tanto. Volvé a **Configuración de la organización → Pagos** y usá **Reconectar MercadoPago**; se renueva sin que pierdas nada.
+- **"Estaba conectado y dejó de aparecer"**: la autorización se renueva sola, así que lo más común es que la conexión se haya cortado desde MercadoPago (por ejemplo, si quitaste el permiso de Passix en tu cuenta de MP). Volvé a **Configuraciones de la cuenta → Pago y plan** y usá **Reconectar MercadoPago**; se renueva sin que pierdas nada.
 - **"Pagué pero la orden sigue pendiente"**: puede ser demora del webhook de MP. Suele resolverse en minutos; si no, revisá la orden en [Órdenes](/ventas/ordenes/).
 
 :::caution

@@ -5,25 +5,36 @@ sidebar:
   order: 3
 ---
 
-Podés reembolsar una orden completa o una parte, y cancelar entradas para liberar stock.
+El reembolso se hace **desde MercadoPago**, y la cancelación de las entradas, **desde Passix**. Son dos pasos distintos, y conviene hacer los dos.
 
-## Reembolsar una orden
+## Devolver el dinero
+
+Passix no inicia reembolsos: la plata está en **tu** cuenta de MercadoPago, así que la devolvés desde ahí.
+
+1. En MercadoPago, buscá el pago del comprador en tu actividad.
+2. Elegí **devolver el dinero** y confirmá.
+
+Cuando MercadoPago confirma un **reembolso total**, Passix lo registra solo: la orden queda como **Reembolsada** y el comprador recibe un email con el monto devuelto.
+
+:::caution[Reembolsos parciales]
+Un reembolso **parcial** hecho en MercadoPago **no se refleja en Passix**: la orden sigue figurando como pagada. Si devolvés una parte, anotalo vos y cancelá en Passix las entradas que correspondan.
+:::
+
+## Cancelar las entradas
+
+El reembolso **no cancela las entradas**: el QR sigue siendo válido hasta que lo cancelás. Para que no puedan entrar con él:
 
 1. Andá a [Órdenes](/ventas/ordenes/) y abrí la orden.
-2. Elegí **Reembolsar**.
-3. Seleccioná **total** o **parcial** (un monto o entradas puntuales).
-4. Confirmá.
+2. Elegí **Cancelar**.
 
-El reembolso se procesa a través de **MercadoPago**, hacia el mismo medio de pago que usó el comprador.
+Al cancelar, el **QR deja de ser válido** (en la puerta da inválido) y se **libera el stock**, junto con las [butacas](/evento/asientos/) si el evento tiene asientos numerados. También podés cancelar un [asistente puntual](/ventas/asistentes/) sin tocar el resto de la orden.
 
 ## Cancelar vs. reembolsar
 
-- **Cancelar**: anula la orden/entrada y **libera el stock** (y las [butacas](/evento/asientos/), si el evento tiene asientos numerados). No necesariamente devuelve dinero.
-- **Reembolsar**: devuelve el dinero al comprador (puede además cancelar la entrada).
-
-## Efecto sobre las entradas
-
-Al reembolsar/cancelar una entrada, su **QR deja de ser válido**: si intentan usarlo en la puerta, da inválido.
+| Acción | Dónde | Qué hace |
+|---|---|---|
+| **Reembolsar** | MercadoPago | Devuelve el dinero. No toca las entradas. |
+| **Cancelar** | Passix | Invalida el QR y libera stock y butacas. No devuelve dinero. |
 
 ## Plazos
 

@@ -25,7 +25,13 @@ Si tu evento tiene [asientos numerados](/evento/asientos/), aparece además la c
 
 ## Crear un asistente a mano
 
-Podés **agregar un asistente** manualmente (ej. invitados, prensa, cortesías) sin pasar por el checkout. Se le genera su entrada con QR igual que a una compra normal.
+Podés **agregar un asistente** manualmente (ej. invitados, prensa, cortesías, o alguien que te pagó por fuera) sin pasar por el checkout. Se le genera su entrada con QR igual que a una compra normal.
+
+1. En **Asistentes**, tocá **Crear**.
+2. Elegí la **entrada** y completá sus datos.
+3. Si esa entrada tiene [asientos numerados](/evento/asientos/), aparece el plano: elegí una butaca **libre** o una **bloqueada** (las punteadas). Las vendidas y reservadas no se pueden elegir.
+
+Al guardar, la butaca queda vendida a su nombre y sale en su entrada, en el email y en el escáner, igual que en una compra normal. Si alguien la tomó mientras elegías, Passix te avisa que ya no está disponible.
 
 ## Exportar
 

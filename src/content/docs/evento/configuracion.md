@@ -80,7 +80,7 @@ Es lo que querés en el 95% de los casos: un evento que ya pasó, o uno que se s
 **Eliminar** borra el evento y todos sus datos asociados, de forma permanente. Para confirmarlo tenés que **escribir una palabra de confirmación**.
 
 :::caution
-Un evento con **órdenes completadas no se puede eliminar**. Passix te lo va a impedir y te va a pedir que primero canceles o reembolses esas órdenes.
+Un evento con **órdenes completadas no se puede eliminar**. Passix te lo va a impedir y te va a pedir que primero canceles esas órdenes.
 
 Esto es a propósito: esas órdenes son el respaldo de una venta real. Si lo que querés es sacar el evento de circulación, **archivalo** — no lo elimines.
 :::
@@ -96,7 +96,7 @@ Se abre un formulario donde ponés el **nombre y las fechas nuevas** y tildás q
 | **Productos** | Tus entradas con precios y stock. |
 | **Preguntas** | Las [preguntas del checkout](/evento/preguntas/). |
 | **Ajustes** | La configuración del evento. |
-| **Códigos promocionales** | Los [códigos](/evento/codigos-promocionales/). |
+| **Códigos promocionales** | Los [códigos](/evento/codigos-promocionales/). Se copian aunque no copies las entradas: en ese caso quedan sin restricción de entradas hasta que los vuelvas a asociar. |
 | **Asignaciones de capacidad** | Los topes de [aforo](/evento/capacidad/). |
 | **Listas de registro** | Las [listas de check-in](/check-in/listas/). |
 | **Imagen de portada del evento** | El flyer **y el banner destacado**. |

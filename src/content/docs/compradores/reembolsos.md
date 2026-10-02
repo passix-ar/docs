@@ -13,7 +13,7 @@ Los reembolsos los gestiona el **organizador** del evento, no Passix directament
 
 1. Buscá el **contacto del organizador** (en la página del evento o en el email de tu compra).
 2. Escribile indicando tu **email de compra** y el **número de orden**.
-3. El organizador procesa el reembolso desde su panel.
+3. El organizador te devuelve el dinero desde su cuenta de MercadoPago. Cuando se acredita, te llega un email de Passix con el monto.
 
 ## Cómo te llega la devolución
 
@@ -25,5 +25,5 @@ Los reembolsos los gestiona el **organizador** del evento, no Passix directament
 Cada evento define su **propia política** (si acepta reembolsos y hasta cuándo). Revisá los **términos y condiciones** del evento antes de comprar.
 
 :::note
-Si tu entrada fue reembolsada, su **QR deja de ser válido** y no podrás ingresar con él.
+Si te devuelven el dinero, el organizador cancela tu entrada: su **QR deja de ser válido** y no podrás ingresar con él.
 :::

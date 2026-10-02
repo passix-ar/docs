@@ -137,10 +137,15 @@ Podés editar una sección en cualquier momento, pero Passix protege lo ya vendi
 
 Si querés frenar la venta de un sector sin borrar nada, **Desactivá** la sección: desaparece del plano del comprador y esa entrada vuelve a venderse sin elección de butaca. Las butacas ya vendidas siguen siendo válidas.
 
+## Invitados y ventas por fuera
+
+Si alguien te pagó en efectivo o por transferencia, o es un invitado, cargalo en **Asistentes → Crear** y elegí su butaca en el plano. Podés usar una butaca **bloqueada** que te guardaste para eso. Ver [Crear un asistente a mano](/ventas/asistentes/#crear-un-asistente-a-mano).
+
 ## Cancelaciones y reembolsos
 
 - Si **cancelás una orden**, sus butacas vuelven al plano como disponibles.
 - Si **cancelás un asistente** puntual, se libera su butaca.
+- Un reembolso hecho desde MercadoPago **no libera la butaca por sí solo**: cancelá la orden en Passix. Ver [Reembolsos](/ventas/reembolsos/).
 
 En los dos casos la butaca queda lista para venderse de nuevo, sin que tengas que tocar el plano.
 

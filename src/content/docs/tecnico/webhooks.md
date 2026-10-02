@@ -32,7 +32,7 @@ Los **webhooks** te permiten enterarte al instante de lo que pasa en Passix (una
 | `order.created` | Se creó una orden (puede estar pendiente de pago). |
 | `order.updated` | Se actualizó una orden. |
 | `order.marked_as_paid` | Una orden se marcó como pagada. |
-| `order.refunded` | Se reembolsó una orden (total o parcial). |
+| `order.refunded` | Se registró el reembolso total de una orden, hecho desde MercadoPago. |
 | `order.cancelled` | Se canceló una orden. |
 | `attendee.created` · `attendee.updated` · `attendee.cancelled` | Cambios en un asistente. |
 | `checkin.created` | Se validó un asistente en la puerta. |

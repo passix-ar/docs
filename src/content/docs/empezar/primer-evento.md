@@ -39,7 +39,7 @@ Si es un teatro, un auditorio o una cena con mesas, podés armar el **plano de l
 
 Cuando esté listo, cambiá el estado de **Borrador** a **Publicado** y compartí el link. ¡Ya podés vender!
 
-Si al publicar te aparece un error, es porque el evento no tiene un método de pago con el que cobrar: revisá que MercadoPago esté conectado o que tengas habilitado el pago offline en la [configuración del evento](/evento/configuracion/).
+Si el evento todavía no tiene un método de pago con el que cobrar, al publicar Passix te avisa y te ofrece el botón **Conectar MercadoPago** o el link para habilitar el pago offline. Cuando lo resolvés, volvés al evento y publicás. Si el aviso es por la cuenta sin verificar, buscá el email de verificación que te mandamos al registrarte.
 
 ## 6. El día del evento, validá
 
@@ -51,8 +51,9 @@ Creá una **lista de check-in** y escaneá los QR en la puerta desde el celular.
 
 :::tip[Checklist antes de publicar]
 - [ ] MercadoPago conectado **o** pago offline habilitado — sin esto no se puede publicar
+- [ ] Email de tu cuenta verificado — sin esto tampoco
 - [ ] Al menos una entrada creada con stock
-- [ ] Fecha, hora y lugar correctos
+- [ ] Fecha, hora y ubicación correctas
 - [ ] Flyer cuadrado y descripción cargados
 - [ ] Si vendés butacas, el plano de la sala armado
 - [ ] Evento en estado **Publicado**

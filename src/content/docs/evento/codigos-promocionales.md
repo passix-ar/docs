@@ -32,6 +32,12 @@ Los **códigos promocionales** te dejan dar descuentos o habilitar entradas ocul
 
 Combiná una entrada **oculta** ([ver Entradas](/evento/entradas/)) con un código de **solo acceso**: solo quien tenga el código ve y compra esa entrada. Ideal para listas VIP, prensa o socios.
 
+## Usos máximos
+
+Un uso cuenta **desde que alguien reserva** la compra con el código, no recién cuando paga, e incluye las órdenes que esperan un [pago offline](/pagos/offline/). Así un código de 10 usos no se pasa aunque varias personas compren a la vez. Si una reserva vence sin pagarse, ese uso vuelve a estar disponible.
+
+Cuando el código llega al tope, el checkout le avisa al comprador que ya no es válido.
+
 ## Seguimiento
 
 En la lista de códigos ves cuántas veces se usó cada uno y cuánto descuento generó. Útil para medir campañas.

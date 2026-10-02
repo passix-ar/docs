@@ -5,13 +5,17 @@ sidebar:
   order: 1
 ---
 
-El **panel del evento** es el centro de control de cada evento. Al entrar ves un resumen y, en el menú lateral, todas las herramientas de gestión.
+El **panel del evento** es el centro de control de cada evento. Al entrar caés en **Empezando**, el checklist de lo que falta para publicar, y en el menú lateral tenés todas las herramientas de gestión.
 
-![Panel del evento con métricas en tiempo real](/img/panel/ev-dashboard.png)
+## Empezando
+
+Es la lista de pasos para dejar el evento listo: entradas, **ubicación**, página, **verificar tu email** y método de pago, entre otros. Para publicar hacen falta dos cosas sí o sí: la **cuenta verificada** (el link que te llega por email) y un **método de pago** ([MercadoPago](/pagos/mercadopago/) o [pago offline](/pagos/offline/)).
 
 ## Resumen (Dashboard)
 
-Apenas abrís el evento ves las métricas clave:
+![Panel del evento con métricas en tiempo real](/img/panel/ev-dashboard.png)
+
+En el **Dashboard** ves las métricas clave:
 
 - **Entradas vendidas** y disponibles.
 - **Ingresos** (bruto y neto).
@@ -59,6 +63,12 @@ El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nom
 | **Lista de espera** | Cuando se agota → [ver](/evento/lista-espera/) |
 | **Gestión de capacidad** | Control de aforo → [ver](/evento/capacidad/) |
 | **Asientos numerados** | Plano de butacas de la sala → [ver](/evento/asientos/) |
+
+## Desde el celular
+
+El panel se usa también desde el celular. Abajo aparece una barra con lo que más se usa en un evento: **Inicio**, **Entradas**, **Pedidos** y **Puerta** (el check-in). El resto del menú está en **Más**.
+
+En la vista del organizador, la barra muestra **Inicio**, **Eventos**, **Informes** y **Ajustes**. El aviso para verificar tu email también está en **Más**.
 
 ## Estado del evento
 
