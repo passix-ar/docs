@@ -113,6 +113,10 @@ En la página del evento, apenas elige la cantidad de una entrada con sección a
 
 Si en el medio otra persona compra una de sus butacas, al confirmar le aparece *"Uno o más de los asientos que seleccionaste ya no están disponibles"* y tiene que elegir otras.
 
+:::tip
+El plano que armás acá es un esquema. Si querés que el comprador vea cómo es la sala de verdad, subí también el [plano del lugar](/evento/imagenes/#plano-del-lugar): lo abre desde la lista de entradas, antes de elegir.
+:::
+
 ## Dónde aparece la butaca después de la venta
 
 Una vez comprada, la butaca acompaña al asistente en todos lados:

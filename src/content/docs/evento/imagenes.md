@@ -1,17 +1,18 @@
 ---
-title: Imágenes del evento (flyer y banner)
+title: Imágenes del evento (flyer, banner y plano)
 description: Qué imagen va en cada lugar, con qué medidas, y cómo entrar en los destacados de la portada de Passix.
 sidebar:
   order: 6
 ---
 
-Un evento en Passix usa **tres imágenes distintas**, cada una con su función. Cargar bien las dos primeras es lo que más mueve la aguja: son la cara del evento en la página, en los listados y cuando alguien comparte el link.
+Un evento en Passix usa **cuatro imágenes distintas**, cada una con su función. Cargar bien las dos primeras es lo que más mueve la aguja: son la cara del evento en la página, en los listados y cuando alguien comparte el link.
 
 | Imagen | Dónde se carga | Medida recomendada | ¿Obligatoria? |
 |---|---|---|---|
 | **Imagen del evento** (flyer) | Diseñador de página de inicio → **Imágenes** | **1080 × 1080** (cuadrada) | Muy recomendada |
 | **Banner destacado** | Diseñador de página de inicio → **Imágenes** | **1920 × 640** (proporción 3:1) | Opcional |
 | **Logo del ticket** | [Diseñador de boletos](/evento/diseno-entradas/) | Cuadrado, fondo transparente | Opcional |
+| **Plano del lugar** | Diseñador de página de inicio → **Imágenes** | Cualquier proporción, desde **600 × 400** | Opcional |
 
 Todas se suben desde el panel del evento y pesan como máximo **5 MB**.
 
@@ -62,6 +63,22 @@ Dicho de otra forma: **sin banner tu evento igual se lista**, con su flyer cuadr
 La portada se arma en el momento, sin cachés: un evento recién publicado (o un banner recién subido) aparece en la siguiente carga de la página.
 :::
 
+## Plano del lugar
+
+Es un plano o una foto del lugar, para que el comprador vea dónde queda cada sector o cada butaca **antes de elegir**. Es opcional y sirve para cualquier evento, tenga [asientos numerados](/evento/asientos/) o no: un teatro con platea y palcos, un estadio con tribunas, un predio con campo y VIP.
+
+El comprador lo ve como **Ver plano del lugar**, arriba de la lista de entradas. Al tocarlo se abre en grande (en el celular, a pantalla completa) y con **Abrir en tamaño completo** puede hacer zoom. Si vendés con el [widget embebible](/tecnico/widget/), el plano se abre en otra pestaña.
+
+- Cualquier proporción: horizontal o vertical.
+- Mínimo: 600 × 400, para que se lea el detalle al agrandarlo.
+- Máximo: 4000 × 4000 y 5 MB.
+
+No reemplaza al flyer: nunca se usa como portada ni aparece en los listados.
+
+:::tip
+Si el lugar te pasó el plano en PDF, exportalo como imagen (JPG o PNG) antes de subirlo: el panel no acepta PDF.
+:::
+
 ## Logo del ticket
 
 Es tu marca sobre el ticket con QR que recibe el asistente. Se carga en el [Diseñador de boletos](/evento/diseno-entradas/), no acá.
@@ -79,6 +96,7 @@ Si [duplicás un evento](/evento/configuracion/), sus imágenes se copian al eve
 | "Esta imagen no es cuadrada…" | Aviso, no error: el flyer se sube igual, pero en los listados va con espacio alrededor. |
 | El banner no se acepta | Está fuera de la proporción 3:1 (se aceptan entre 2.5:1 y 3.5:1), o es más chico que 1500 × 500. |
 | "Máx. 5MB" | El archivo pesa de más. Exportá en JPG de buena calidad en vez de PNG. |
+| El plano no se acepta | Es más chico que 600 × 400, o es un PDF: exportalo como imagen. |
 | El evento no aparece en los destacados | Le falta el banner, ya pasó su fecha, o hay 5 eventos más próximos con banner ocupando la franja. |
 
 ## Buenas prácticas
