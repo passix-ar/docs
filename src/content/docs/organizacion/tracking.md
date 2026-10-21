@@ -36,9 +36,14 @@ Sin ese tilde **no te deja guardar**. No es un trámite: es la declaración de q
 
 ## El banner de cookies
 
-Apenas hay un píxel activo, tus páginas públicas le muestran al visitante un **banner de consentimiento**:
+Apenas hay un píxel activo, tus páginas públicas le muestran al visitante un **banner de cookies**. Lo que hace depende de la zona horaria del dispositivo del visitante:
 
-> *Utilizamos cookies para ayudarnos a entender cómo se usa el sitio y mejorar su experiencia.* — con los botones **Aceptar** y **Rechazar**, y un enlace a la **política de privacidad**.
+| Zona horaria del visitante | Cuándo empieza a medir el píxel | Qué ve |
+|---|---|---|
+| **Argentina** | Apenas entra | Un aviso con **Rechazar** y **Entendido**. Si toca **Rechazar**, el píxel se apaga en ese navegador. |
+| **Cualquier otra** | Solo si acepta | El pedido de permiso con **Aceptar** y **Rechazar**. Si no responde o cierra el banner, no se mide nada. |
+
+La diferencia sigue a la ley de cada lugar: en la Unión Europea o en Brasil, por ejemplo, hay que pedir el permiso antes de medir. En los dos casos el banner enlaza a la **política de privacidad**, y la elección queda guardada en ese navegador.
 
 El banner aparece solo cuando el seguimiento está activo. Si no tenés ningún píxel, tus visitantes no lo ven.
 
@@ -49,6 +54,7 @@ Este es el punto importante y conviene que quede escrito:
 - Al conectar un píxel, **vos y la plataforma son corresponsables** de los datos que se recolectan.
 - Sos vos quien tiene que asegurarse de contar con una **base legal** para ese tratamiento, según la normativa de privacidad que te aplique.
 - Eso incluye tener una **política de privacidad propia** accesible y coherente con lo que realmente hacés con los datos.
+- Que en Argentina el píxel empiece a medir sin esperar al visitante no cambia nada de lo anterior.
 
 Si no estás seguro de tener esa base legal cubierta, **la opción prudente es no activar los píxeles**. Medir mejor no compensa un problema de datos personales, y desactivarlos después no borra lo ya recolectado por el proveedor.
 
