@@ -25,7 +25,6 @@ En **Configuración** definís todos los datos y el comportamiento de tu evento.
 
 - **Moneda** del evento (por ejemplo ARS).
 - **Zona horaria** (importante para fechas de venta y recordatorios).
-- **Idioma** de los emails al comprador.
 
 ## Ajustes de pago
 
@@ -51,6 +50,8 @@ Textos e imagen para cuando el link se comparte en redes o WhatsApp. La imagen q
 - **Correo electrónico de soporte**: la dirección de contacto que ve el comprador en los emails del evento.
 - **Mensaje de pie de página**: un texto que se suma al final de todos los emails de este evento.
 - **Notificar al organizador de nuevos pedidos**: te llega un email por cada compra.
+
+Los emails al comprador salen en el idioma de su navegador, y si Passix no tiene ese idioma, en español. Las fechas y horas van en la zona horaria del evento.
 
 Acá también podés escribir **plantillas propias** para los emails automáticos, que reemplazan a las de tu organización solo en este evento → ver [Emails automáticos y plantillas](/organizacion/emails/).
 
