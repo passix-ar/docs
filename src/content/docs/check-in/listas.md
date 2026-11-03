@@ -20,8 +20,9 @@ Una **lista de check-in** define un punto de validación: qué entradas se valid
 1. En el evento, andá a **Listas de registro** (menú **Gestión de invitados**).
 2. **Crear lista** y ponele nombre (ej. "Puerta principal").
 3. Elegí qué **entradas** valida.
-4. Opcional: definí **fecha/hora** de apertura y cierre del check-in.
-5. Guardá.
+4. Opcional: escribí la **Descripción para el personal de registro** con lo que tu staff tiene que saber en la puerta (ej. "Pedir DNI", "Pulsera roja para VIP"). Se le muestra a cada persona la primera vez que abre la lista en su celular, y de nuevo si la cambiás.
+5. Opcional: definí **fecha/hora** de apertura y cierre del check-in.
+6. Guardá.
 
 ## Compartir con el staff
 

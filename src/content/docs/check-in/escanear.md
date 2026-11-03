@@ -19,7 +19,7 @@ El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escane
 
 ## Escanear en la puerta
 
-1. Abrí el **link de la lista de registro** desde el celular. Al abrirlo, el celular **baja la lista completa** de asistentes: esperá a que diga que está sincronizada.
+1. Abrí el **link de la lista de registro** desde el celular. Al abrirlo, el celular **baja la lista completa** de asistentes: esperá a que diga que está sincronizada. Si la lista tiene **instrucciones para la puerta**, aparecen la primera vez: leelas y tocá **Entendido**.
 2. Permití el acceso a la **cámara**.
 3. Apuntá al **QR** del asistente.
 4. El resultado es inmediato, porque se resuelve en el mismo celular sin esperar a internet:
@@ -31,6 +31,14 @@ El link de check-in **no requiere cuenta ni login**: quien lo tenga puede escane
 | 🔴 **Inválida** | No corresponde a este evento/lista. |
 
 El aviso de cada escaneo muestra el **nombre** del asistente y el **tipo de entrada**. Si tu evento tiene [asientos numerados](/evento/asientos/), suma la **butaca**: por ejemplo `VIP · Platea B7`. Sirve para indicarle en el momento dónde sentarse, sin tener que buscar la orden.
+
+Al lado del nombre de la lista ves cuántos **ingresaron sobre el total** (por ejemplo `120/340`). Cuenta también los ingresos que el celular todavía no envió por falta de señal.
+
+## Últimos escaneos
+
+Debajo del estado de sincronización queda el **último escaneo** con su resultado. Tocalo para ver los últimos 20: quién era, qué entrada traía y si pasó, ya había ingresado o fue rechazado.
+
+Si un ingreso que se registró sin señal después es **rechazado** por Passix (por ejemplo, porque la entrada se canceló mientras tanto), ese escaneo pasa a **rojo** y aparece el aviso **N rechazados**: es alguien que entró sin una entrada válida.
 
 ## Si se corta la señal
 
