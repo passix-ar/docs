@@ -28,7 +28,7 @@ Si intentás **publicar un evento sin un método de pago**, Passix te avisa y te
 - El comprador paga con **tarjeta, dinero en cuenta o efectivo**.
 - El pago se acredita en **tu** cuenta de MercadoPago.
 - La **comisión de plataforma** se separa automáticamente vía el marketplace de MercadoPago. Vos elegís si la **paga el comprador** o la **asumís vos** → ver [Cómo cobra Passix](/pagos/como-cobra-passix/).
-- La confirmación del pago llega por **webhook**: la orden se marca como pagada sola, sin que hagas nada.
+- La confirmación del pago llega por **webhook**: el pedido se marca como pagado solo, sin que hagas nada.
 
 ## Requisitos
 
@@ -47,14 +47,14 @@ Antes de desconectar, Passix revisa tus eventos publicados. Si alguno **solo** a
 Si ninguno queda sin método, la desconexión sigue adelante y te avisa cuántos eventos publicados dejan de ofrecer MercadoPago.
 
 :::note
-Los pagos que ya se iniciaron **se acreditan igual**, y las órdenes anteriores no se ven afectadas. Los reembolsos se hacen desde tu panel de MercadoPago, que sigue siendo tuyo → ver [Reembolsos](/ventas/reembolsos/).
+Los pagos que ya se iniciaron **se acreditan igual**, y los pedidos anteriores no se ven afectados. Los reembolsos se hacen desde tu panel de MercadoPago, que sigue siendo tuyo → ver [Reembolsos](/ventas/reembolsos/).
 :::
 
 ## Estados de pago
 
 | Estado | Qué significa |
 |---|---|
-| **Aprobado / Pagado** | Entró la plata, orden completada. |
+| **Aprobado / Pagado** | Entró la plata, pedido completado. |
 | **Pendiente** | MP aún no confirmó (ej. pago en efectivo). |
 | **Rechazado** | El pago falló; el comprador puede reintentar. |
 
@@ -62,7 +62,7 @@ Los pagos que ya se iniciaron **se acreditan igual**, y las órdenes anteriores 
 
 - **"No me aparece la opción de pagar"**: revisá que MercadoPago esté **conectado** y habilitado en la [configuración del evento](/evento/configuracion/). Si la cuenta no está conectada, Passix **oculta** MercadoPago del checkout a propósito, para que el comprador no llegue a un pago que va a fallar.
 - **"Estaba conectado y dejó de aparecer"**: la autorización se renueva sola, así que lo más común es que la conexión se haya cortado desde MercadoPago (por ejemplo, si quitaste el permiso de Passix en tu cuenta de MP). Volvé a **Configuraciones de la cuenta → Pago y plan** y usá **Reconectar MercadoPago**; se renueva sin que pierdas nada.
-- **"Pagué pero la orden sigue pendiente"**: puede ser demora del webhook de MP. Suele resolverse en minutos; si no, revisá la orden en [Órdenes](/ventas/ordenes/).
+- **"Pagué pero el pedido sigue pendiente"**: puede ser demora del webhook de MP. Suele resolverse en minutos; si no, revisá el pedido en [Pedidos](/ventas/ordenes/).
 
 :::caution
 Cambiar la cuenta de MercadoPago conectada afecta solo a las **ventas futuras**. Las ventas ya cobradas quedaron en la cuenta anterior.

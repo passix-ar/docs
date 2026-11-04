@@ -1,6 +1,6 @@
 ---
 title: Panel del evento
-description: Qué ves en el dashboard de un evento y cómo navegar sus secciones.
+description: Qué ves en el panel de un evento y cómo navegar sus secciones.
 sidebar:
   order: 1
 ---
@@ -11,15 +11,15 @@ El **panel del evento** es el centro de control de cada evento. Al entrar caés 
 
 Es la lista de pasos para dejar el evento listo: entradas, **ubicación**, página, **verificar tu email** y método de pago, entre otros. Para publicar hacen falta dos cosas sí o sí: la **cuenta verificada** (el link que te llega por email) y un **método de pago** ([MercadoPago](/pagos/mercadopago/) o [pago offline](/pagos/offline/)).
 
-## Resumen (Dashboard)
+## Resumen (Panel)
 
 ![Panel del evento con métricas en tiempo real](/img/panel/ev-dashboard.png)
 
-En el **Dashboard** ves las métricas clave:
+En el **Panel** ves las métricas clave:
 
 - **Entradas vendidas** y disponibles.
 - **Ingresos** (bruto y neto).
-- **Órdenes** recientes.
+- **Pedidos** recientes.
 - **Vistas** de la página del evento.
 
 Todo se actualiza en tiempo real a medida que entran ventas.
@@ -32,7 +32,7 @@ El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nom
 
 | Ítem del menú | Para qué |
 |---|---|
-| **Dashboard** | Métricas y actividad reciente. |
+| **Panel** | Métricas y actividad reciente. |
 | **Informes** | Estadísticas y exportación → [ver](/ventas/reportes/) |
 
 **Configuración y diseño**
@@ -41,10 +41,10 @@ El menú lateral está agrupado igual que en el panel. Entre paréntesis, el nom
 |---|---|
 | **Configuración del evento** | Datos, pagos y opciones → [ver](/evento/configuracion/) |
 | **Diseñador de página de inicio** | Look de la página pública e [imágenes](/evento/imagenes/) → [ver](/evento/pagina/) |
-| **Diseñador de boletos** | Diseño del ticket con QR → [ver](/evento/diseno-entradas/) |
+| **Diseñador de entradas** | Diseño de la entrada con QR → [ver](/evento/diseno-entradas/) |
 | **Preguntas de registro** | Datos que pedís en el checkout → [ver](/evento/preguntas/) |
 
-**Venta de boletos**
+**Venta de entradas**
 
 | Ítem del menú | Para qué |
 |---|---|

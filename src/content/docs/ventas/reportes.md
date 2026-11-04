@@ -13,7 +13,7 @@ Los **reportes** te dan la foto de cómo va tu evento y te permiten exportar dat
 
 - **Entradas vendidas** por tipo.
 - **Ingresos**: bruto, neto (después de comisiones) y por medio de pago.
-- **Órdenes**: completadas, pendientes, canceladas.
+- **Pedidos**: completados, pendientes, cancelados.
 - **Asistentes** y **check-ins** realizados.
 - **Evolución** de ventas en el tiempo.
 

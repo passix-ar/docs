@@ -1,6 +1,6 @@
 ---
 title: Reembolsos y cancelaciones
-description: Cómo devolver el dinero de una orden y cancelar entradas.
+description: Cómo devolver el dinero de un pedido y cancelar entradas.
 sidebar:
   order: 3
 ---
@@ -14,20 +14,20 @@ Passix no inicia reembolsos: la plata está en **tu** cuenta de MercadoPago, as�
 1. En MercadoPago, buscá el pago del comprador en tu actividad.
 2. Elegí **devolver el dinero** y confirmá.
 
-Cuando MercadoPago confirma un **reembolso total**, Passix lo registra solo: la orden queda como **Reembolsada** y el comprador recibe un email con el monto devuelto.
+Cuando MercadoPago confirma un **reembolso total**, Passix lo registra solo: el pedido queda como **Reembolsado** y el comprador recibe un email con el monto devuelto.
 
 :::caution[Reembolsos parciales]
-Un reembolso **parcial** hecho en MercadoPago **no se refleja en Passix**: la orden sigue figurando como pagada. Si devolvés una parte, anotalo vos y cancelá en Passix las entradas que correspondan.
+Un reembolso **parcial** hecho en MercadoPago **no se refleja en Passix**: el pedido sigue figurando como pagado. Si devolvés una parte, anotalo vos y cancelá en Passix las entradas que correspondan.
 :::
 
 ## Cancelar las entradas
 
 El reembolso **no cancela las entradas**: el QR sigue siendo válido hasta que lo cancelás. Para que no puedan entrar con él:
 
-1. Andá a [Órdenes](/ventas/ordenes/) y abrí la orden.
+1. Andá a [Pedidos](/ventas/ordenes/) y abrí el pedido.
 2. Elegí **Cancelar**.
 
-Al cancelar, el **QR deja de ser válido** (en la puerta da inválido) y se **libera el stock**, junto con las [butacas](/evento/asientos/) si el evento tiene asientos numerados. También podés cancelar un [asistente puntual](/ventas/asistentes/) sin tocar el resto de la orden.
+Al cancelar, el **QR deja de ser válido** (en la puerta da inválido) y se **libera el stock**, junto con las [butacas](/evento/asientos/) si el evento tiene asientos numerados. También podés cancelar un [asistente puntual](/ventas/asistentes/) sin tocar el resto del pedido.
 
 ## Cancelar vs. reembolsar
 

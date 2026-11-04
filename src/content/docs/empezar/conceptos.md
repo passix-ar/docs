@@ -17,8 +17,8 @@ Lo que vendés dentro de un evento. Puede ser una **entrada** (General, VIP) o u
 ## Categoría de productos
 Agrupa entradas relacionadas en la página (por ejemplo "Preventas", "Combos"). Ordena y organiza el checkout.
 
-## Orden
-Cada compra que hace una persona. Agrupa una o más entradas y tiene un **estado** (completada, esperando pago, cancelada) y un **estado de pago**. Ver [Órdenes](/ventas/ordenes/).
+## Pedido
+Cada compra que hace una persona. Agrupa una o más entradas y tiene un **estado** (completado, esperando pago, cancelado) y un **estado de pago**. Ver [Pedidos](/ventas/ordenes/).
 
 ## Asistente (Attendee)
 La persona que efectivamente ingresa con una entrada. Una orden de 3 entradas genera 3 asistentes, cada uno con su **QR**. Ver [Asistentes](/ventas/asistentes/).
@@ -44,7 +44,7 @@ Organización
 └── Evento
     ├── Productos / Entradas  →  se compran en una...
     │   └── Sección de asientos (opcional: el comprador elige butaca)
-    ├── Órdenes               →  cada una genera...
+    ├── Pedidos               →  cada uno genera...
     │   └── Asistentes (QR)   →  se validan con...
     └── Listas de check-in
 ```

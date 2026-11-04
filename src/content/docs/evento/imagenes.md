@@ -11,7 +11,7 @@ Un evento en Passix usa **cuatro imágenes distintas**, cada una con su función
 |---|---|---|---|
 | **Imagen del evento** (flyer) | Diseñador de página de inicio → **Imágenes** | **1080 × 1080** (cuadrada) | Muy recomendada |
 | **Banner destacado** | Diseñador de página de inicio → **Imágenes** | **1920 × 640** (proporción 3:1) | Opcional |
-| **Logo del ticket** | [Diseñador de boletos](/evento/diseno-entradas/) | Cuadrado, fondo transparente | Opcional |
+| **Logo de la entrada** | [Diseñador de entradas](/evento/diseno-entradas/) | Cuadrado, fondo transparente | Opcional |
 | **Plano del lugar** | Diseñador de página de inicio → **Imágenes** | Cualquier proporción, desde **600 de ancho y 400 de alto** | Opcional |
 
 Todas se suben desde el panel del evento y pesan como máximo **5 MB**.
@@ -79,9 +79,9 @@ No reemplaza al flyer: nunca se usa como portada ni aparece en los listados.
 Si el lugar te pasó el plano en PDF, exportalo como imagen (JPG o PNG) antes de subirlo: el panel no acepta PDF.
 :::
 
-## Logo del ticket
+## Logo de la entrada
 
-Es tu marca sobre el ticket con QR que recibe el asistente. Se carga en el [Diseñador de boletos](/evento/diseno-entradas/), no acá.
+Es tu marca sobre la entrada con QR que recibe el asistente. Se carga en el [Diseñador de entradas](/evento/diseno-entradas/), no acá.
 
 Usá un logo **cuadrado y con fondo transparente** (PNG), y no lo pongas encima del QR: el código tiene que quedar nítido para escanear.
 

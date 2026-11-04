@@ -17,7 +17,7 @@ Si tu evento tiene [asientos numerados](/evento/asientos/), aparece además la c
 
 ## Acciones
 
-- **Reenviar** el ticket con QR a su email.
+- **Reenviar** la entrada con QR a su email.
 - **Editar** nombre/datos del asistente.
 - **Check-in manual**: marcar el ingreso a mano (útil si no tienen el QR). Ver [Escanear](/check-in/escanear/).
 - **Cancelar** una entrada puntual. Si el evento tiene butacas, se **libera su asiento** y vuelve a estar disponible en el plano.

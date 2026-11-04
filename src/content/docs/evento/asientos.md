@@ -121,7 +121,7 @@ El plano que armás acá es un esquema. Si querés que el comprador vea cómo es
 
 Una vez comprada, la butaca acompaña al asistente en todos lados:
 
-- En su **ticket con QR** y en el email de confirmación (*"Tu butaca: Sector VIP - A5"*).
+- En su **entrada con QR** y en el email de confirmación (*"Tu butaca: Sector VIP - A5"*).
 - En la columna **Asiento** de [Asistentes](/ventas/asistentes/) y en el **CSV** exportado.
 - En la pantalla de **check-in**, junto al nombre, para poder ubicar a la persona en la puerta.
 - Como variable **`{{ attendee.seat }}`** si usás plantillas de email.
@@ -162,6 +162,6 @@ Es rápido si anotás la receta de cada sector (nombre, entrada vinculada, filas
 ## Buenas prácticas
 
 - Armá el plano **antes de publicar** el evento: mover secciones con ventas hechas es incómodo y cambia lo que ya vio el comprador.
-- Un **nombre por sector real** (*Platea baja*, *Pullman*, *Palco 3*), no nombres genéricos: es lo que el asistente va a leer en su ticket y buscar en la sala.
+- Un **nombre por sector real** (*Platea baja*, *Pullman*, *Palco 3*), no nombres genéricos: es lo que el asistente va a leer en su entrada y buscar en la sala.
 - Probá el plano desde el **celular** con la [vista previa del evento](/evento/pagina/): la mayoría de tus compradores elige butaca en pantalla chica.
 - Si tu sala tiene sectores con precios distintos, **una entrada y una sección por sector**. No intentes resolverlo con una sola sección.

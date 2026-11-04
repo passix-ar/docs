@@ -11,7 +11,7 @@ Las **entradas** (productos) son lo que vendés dentro del evento. Podés tener 
 
 ## Crear una entrada
 
-1. En el evento, andá a **Entradas y productos** (menú **Venta de boletos**).
+1. En el evento, andá a **Entradas y productos** (menú **Venta de entradas**).
 2. Hacé clic en **Crear entrada**.
 3. Completá:
    - **Nombre** (ej. General, VIP, Early Bird).

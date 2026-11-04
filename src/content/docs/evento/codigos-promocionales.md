@@ -34,7 +34,7 @@ Combiná una entrada **oculta** ([ver Entradas](/evento/entradas/)) con un códi
 
 ## Usos máximos
 
-Un uso cuenta **desde que alguien reserva** la compra con el código, no recién cuando paga, e incluye las órdenes que esperan un [pago offline](/pagos/offline/). Así un código de 10 usos no se pasa aunque varias personas compren a la vez. Si una reserva vence sin pagarse, ese uso vuelve a estar disponible.
+Un uso cuenta **desde que alguien reserva** la compra con el código, no recién cuando paga, e incluye los pedidos que esperan un [pago offline](/pagos/offline/). Así un código de 10 usos no se pasa aunque varias personas compren a la vez. Si una reserva vence sin pagarse, ese uso vuelve a estar disponible.
 
 Cuando el código llega al tope, el checkout le avisa al comprador que ya no es válido.
 

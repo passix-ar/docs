@@ -12,7 +12,7 @@ Además de los [mensajes que enviás a mano](/ventas/mensajes/), Passix manda **
 | Email | A quién le llega | Cuándo |
 |---|---|---|
 | **Confirmación de pedido** | Al comprador | Cuando hace la compra |
-| **Entrada del asistente** | A cada asistente | Con su ticket y su QR |
+| **Entrada del asistente** | A cada asistente | Con su entrada y su QR |
 
 Los dos salen sin que tengas que hacer nada. Personalizarlos es opcional.
 

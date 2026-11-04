@@ -24,12 +24,12 @@ También es la salida cuando MercadoPago no está disponible: sirve para **publi
 
 ## Confirmar un pago
 
-1. Andá a [Órdenes](/ventas/ordenes/).
+1. Andá a [Pedidos](/ventas/ordenes/).
 2. Abrí la orden en estado *esperando pago*.
-3. **Marcar como pagada**.
+3. **Marcar como pagado**.
 
 :::caution
-Con pago offline, la entrada **no se emite** hasta que confirmás el pago. Definí un plazo razonable y cancelá las órdenes que no se paguen para liberar el stock.
+Con pago offline, la entrada **no se emite** hasta que confirmás el pago. Definí un plazo razonable y cancelá los pedidos que no se paguen para liberar el stock.
 :::
 
 :::tip
