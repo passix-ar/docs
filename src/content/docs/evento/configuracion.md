@@ -7,6 +7,8 @@ sidebar:
 
 En **Configuración** definís todos los datos y el comportamiento de tu evento.
 
+El menú de secciones (en el celular, el selector de arriba) elige cuál ves. Cada sección se guarda con su propio botón **Guardar**.
+
 ![Configuración del evento](/img/panel/ev-settings.png)
 
 ## Datos básicos

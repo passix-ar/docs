@@ -11,7 +11,7 @@ Passix cobra a través de **MercadoPago**. Conectás tu cuenta una vez y el dine
 
 ## Conectar tu cuenta
 
-1. En el menú, entrá a **Cobrá → Configurar pagos**. Te lleva a **Configuraciones de la cuenta → Pago y plan**.
+1. En el menú, entrá a **Cobrá → Configurar pagos**. Te lleva a **Configuración de la cuenta → Pago y plan**.
 2. Hacé clic en **Conectar MercadoPago**.
 3. Se abre MercadoPago: **iniciá sesión** con la cuenta donde querés cobrar.
 4. **Autorizá** a Passix a operar en tu nombre.
@@ -37,7 +37,7 @@ Si intentás **publicar un evento sin un método de pago**, Passix te avisa y te
 
 ## Desconectar tu cuenta
 
-En **Configuraciones de la cuenta → Pago y plan** tenés la opción **Desconectar**.
+En **Configuración de la cuenta → Pago y plan** tenés la opción **Desconectar**.
 
 Antes de desconectar, Passix revisa tus eventos publicados. Si alguno **solo** acepta MercadoPago, el botón queda bloqueado y te muestra cuáles son: desconectar los dejaría publicados y sin forma de cobrar. Para destrabarlo, en cada uno de esos eventos podés:
 
@@ -61,7 +61,7 @@ Los pagos que ya se iniciaron **se acreditan igual**, y los pedidos anteriores n
 ## Problemas comunes
 
 - **"No me aparece la opción de pagar"**: revisá que MercadoPago esté **conectado** y habilitado en la [configuración del evento](/evento/configuracion/). Si la cuenta no está conectada, Passix **oculta** MercadoPago del checkout a propósito, para que el comprador no llegue a un pago que va a fallar.
-- **"Estaba conectado y dejó de aparecer"**: la autorización se renueva sola, así que lo más común es que la conexión se haya cortado desde MercadoPago (por ejemplo, si quitaste el permiso de Passix en tu cuenta de MP). Volvé a **Configuraciones de la cuenta → Pago y plan** y usá **Reconectar MercadoPago**; se renueva sin que pierdas nada.
+- **"Estaba conectado y dejó de aparecer"**: la autorización se renueva sola, así que lo más común es que la conexión se haya cortado desde MercadoPago (por ejemplo, si quitaste el permiso de Passix en tu cuenta de MP). Volvé a **Configuración de la cuenta → Pago y plan** y usá **Reconectar MercadoPago**; se renueva sin que pierdas nada.
 - **"Pagué pero el pedido sigue pendiente"**: puede ser demora del webhook de MP. Suele resolverse en minutos; si no, revisá el pedido en [Pedidos](/ventas/ordenes/).
 
 :::caution

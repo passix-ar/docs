@@ -17,7 +17,7 @@ En el evento, andá a **Pedidos** (menú **Venta de entradas**). Ves la lista co
 
 | Estado del pedido | Significado |
 |---|---|
-| **Terminado** | Pago confirmado, entradas emitidas. |
+| **Completado** | Pago confirmado, entradas emitidas. |
 | **Esperando pago** | Falta confirmar el pago (offline o MP pendiente). |
 | **Cancelado** | Anulado; el stock se libera. |
 
