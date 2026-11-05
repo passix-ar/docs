@@ -1,5 +1,5 @@
 ---
-title: Acceder a tus tickets
+title: Acceder a tus entradas
 description: Dónde encontrar tu entrada con QR después de comprar.
 sidebar:
   order: 2
@@ -14,7 +14,7 @@ Después de pagar, tu entrada con **código QR** queda disponible al instante.
 
 ## ¿Perdiste el email?
 
-Usá la **búsqueda de entradas**: en la pantalla de acceso de Passix hacé clic en **"¿Solo buscás tus entradas?"**, ingresá el **email** con el que compraste y te llega un enlace para volver a ver tus órdenes y tickets. No necesitás crear una cuenta.
+Usá la **búsqueda de entradas**: en la pantalla de acceso de Passix hacé clic en **"¿Solo buscás tus entradas?"**, ingresá el **email** con el que compraste y te llega un enlace para volver a ver tus pedidos y entradas. No necesitás crear una cuenta.
 
 ## Formatos
 

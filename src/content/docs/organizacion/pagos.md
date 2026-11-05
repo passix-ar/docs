@@ -15,7 +15,7 @@ Desde acá controlás **cómo cobra** tu organización. Es la cuenta que usan to
 
 ## Conectar o cambiar MercadoPago
 
-1. En el menú, entrá a **Cobrá → Configurar pagos** (o andá a **Configuraciones de la cuenta → Pago y plan**).
+1. En el menú, entrá a **Cobrá → Configurar pagos** (o andá a **Configuración de la cuenta → Pago y plan**).
 2. **Conectar MercadoPago** (o desconectar la cuenta actual).
 3. Autorizá y volvés con la cuenta vinculada.
 

@@ -1,15 +1,15 @@
 ---
-title: Diseñar tus entradas (ticket)
-description: Personalizá el diseño del ticket con QR que reciben tus compradores.
+title: Diseñar tus entradas
+description: Personalizá el diseño de la entrada con QR que reciben tus compradores.
 sidebar:
   order: 7
 ---
 
-Con el **Diseñador de boletos** personalizás cómo se ve el ticket con QR que recibe cada asistente. Lo encontrás en el menú **Configuración y diseño** del evento.
+Con el **Diseñador de entradas** personalizás cómo se ve la entrada con QR que recibe cada asistente. Lo encontrás en el menú **Configuración y diseño** del evento.
 
-![Diseñador de boletos](/img/panel/ev-ticket-designer.png)
+![Diseñador de entradas](/img/panel/ev-ticket-designer.png)
 
-## Qué incluye el ticket
+## Qué incluye la entrada
 
 - **Código QR** único (lo que se escanea en la puerta).
 - Nombre del **evento**, fecha y lugar.
@@ -19,7 +19,7 @@ Con el **Diseñador de boletos** personalizás cómo se ve el ticket con QR que 
 
 ## Personalización
 
-- **Colores** y fondo del ticket.
+- **Colores** y fondo de la entrada.
 - **Logo** de la organización/evento (cuadrado y con fondo transparente; ver [Imágenes del evento](/evento/imagenes/)).
 - Textos e **instrucciones** para el asistente (ej. "Presentá este QR en la puerta").
 
@@ -27,7 +27,7 @@ Con el **Diseñador de boletos** personalizás cómo se ve el ticket con QR que 
 
 El asistente puede:
 
-- Ver el ticket **online** desde el link de su orden.
+- Ver la entrada **online** desde el link de su pedido.
 - **Descargarlo en PDF** para imprimir o guardar.
 - Recibirlo por **email** automáticamente tras la compra.
 

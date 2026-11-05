@@ -7,6 +7,8 @@ sidebar:
 
 En **Configuración** definís todos los datos y el comportamiento de tu evento.
 
+El menú de secciones (en el celular, el selector de arriba) elige cuál ves. Cada sección se guarda con su propio botón **Guardar**.
+
 ![Configuración del evento](/img/panel/ev-settings.png)
 
 ## Datos básicos
@@ -72,7 +74,7 @@ Al fondo de la configuración están las acciones que no se deshacen solas. **So
 
 ### Archivar
 
-**Archivar** saca el evento de la vista pública sin borrar nada: deja de ser visible y de venderse, pero conservás las órdenes, los asistentes y los reportes. Es reversible con **Restaurar evento**.
+**Archivar** saca el evento de la vista pública sin borrar nada: deja de ser visible y de venderse, pero conservás los pedidos, los asistentes y los reportes. Es reversible con **Restaurar evento**.
 
 Es lo que querés en el 95% de los casos: un evento que ya pasó, o uno que se suspendió.
 
@@ -81,9 +83,9 @@ Es lo que querés en el 95% de los casos: un evento que ya pasó, o uno que se s
 **Eliminar** borra el evento y todos sus datos asociados, de forma permanente. Para confirmarlo tenés que **escribir una palabra de confirmación**.
 
 :::caution
-Un evento con **órdenes completadas no se puede eliminar**. Passix te lo va a impedir y te va a pedir que primero canceles esas órdenes.
+Un evento con **pedidos completados no se puede eliminar**. Passix te lo va a impedir y te va a pedir que primero canceles esos pedidos.
 
-Esto es a propósito: esas órdenes son el respaldo de una venta real. Si lo que querés es sacar el evento de circulación, **archivalo** — no lo elimines.
+Esto es a propósito: esos pedidos son el respaldo de una venta real. Si lo que querés es sacar el evento de circulación, **archivalo** — no lo elimines.
 :::
 
 ## Duplicar un evento
@@ -101,7 +103,7 @@ Se abre un formulario donde ponés el **nombre y las fechas nuevas** y tildás q
 | **Asignaciones de capacidad** | Los topes de [aforo](/evento/capacidad/). |
 | **Listas de registro** | Las [listas de check-in](/check-in/listas/). |
 | **Imagen de portada del evento** | El flyer **y el banner destacado**. |
-| **Logo del Ticket** | El logo del [diseño de entradas](/evento/diseno-entradas/). |
+| **Logo de la entrada** | El logo del [diseño de entradas](/evento/diseno-entradas/). |
 | **Webhooks** y **Afiliados** | Las integraciones y los [afiliados](/organizacion/afiliados/). |
 
 El evento nuevo se crea en **Borrador**, con cero ventas y sus propias entradas y QR.
