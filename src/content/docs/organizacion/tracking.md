@@ -7,7 +7,9 @@ sidebar:
 
 **Seguimiento y analítica** te deja conectar píxeles de medición a tus **páginas públicas**: la de cada evento y la de tu organización. Sirve para medir campañas, armar públicos y ver de dónde vienen tus ventas.
 
-Lo encontrás en la **configuración de la organización**, y aplica a **todos** tus eventos.
+En la **configuración de tu organización** podés conectar píxeles generales, que se usan en todos tus eventos y en la página de tu organización. También podés configurar píxeles propios en **Configuración del evento** → **Seguimiento y analítica**. Al duplicar un evento, sus píxeles se copian junto con el resto de su configuración.
+
+Si un evento tiene su propio píxel de Meta, se mide junto con el de la organización. Para Google Analytics 4 y TikTok, el píxel del evento reemplaza al de la organización en ese evento. Si no configurás uno para el evento, se usa el de la organización.
 
 :::caution[Leelo antes de activarlo]
 Activar un píxel no es solo pegar un número: pasás a ser **corresponsable de los datos** que se recolectan, junto con la plataforma. Passix te lo hace declarar de forma explícita antes de guardar. Más abajo está el detalle.
@@ -26,7 +28,7 @@ Cada uno tiene su **interruptor** propio: podés dejar el ID cargado y apagar el
 
 ## Cómo conectarlo
 
-1. Andá a la **configuración de tu organización** → **Seguimiento y analítica**.
+1. Andá a la **configuración de tu organización** → **Seguimiento y analítica**, o a la **configuración del evento** → **Seguimiento y analítica** si querés medir ese evento por separado.
 2. Activá el interruptor del proveedor que quieras usar.
 3. Pegá el **ID** en el formato que te pide.
 4. Tildá **"Reconozco mis responsabilidades como responsable del tratamiento de datos"**.
