@@ -55,7 +55,7 @@ Cuando el banner queda cargado, el panel te lo confirma: *"Tu evento ya puede ap
 En [getpassix.com](https://getpassix.com) hay dos cosas distintas:
 
 - **La cartelera**: la fila de eventos. Entran **todos** los eventos publicados, con o sin banner, ordenados por fecha (primero los próximos).
-- **El carrusel destacado**: la franja grande de arriba. Entran solo los **próximos eventos que tienen banner cargado**, hasta **5**, en orden de fecha.
+- **El carrusel destacado**: la franja grande de arriba. Entran solo los **próximos eventos que tienen banner cargado**, hasta **20**, primero los que más entradas vendieron (si empatan, el que es antes).
 
 Dicho de otra forma: **sin banner tu evento igual se lista**, con su flyer cuadrado. Con banner, además, compite por la franja de arriba.
 
