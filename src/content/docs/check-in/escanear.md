@@ -42,10 +42,12 @@ El escáner **sigue funcionando sin conexión**. Los ingresos quedan guardados e
 | **Sincronizando…** | Hay ingresos esperando para enviarse. |
 | **Sin conexión — el escáner sigue funcionando** | Seguí escaneando: se envían cuando vuelva la señal. |
 
-La lista se actualiza sola cada minuto, así que también ves las ventas de último momento y los ingresos que registró otro celular.
+Con señal, la lista se actualiza sola cada 15 segundos, así que también ves las ventas de último momento y los ingresos que registró otro celular.
+
+Si se cierra la pestaña o se reinicia el celular sin señal, el escáner **vuelve a abrir igual** con la lista que ya tenía, y los ingresos pendientes se envían cuando vuelve la conexión.
 
 :::caution
-Sin conexión, **no recargues la página**: la pestaña abierta sigue funcionando, pero si la recargás sin señal no vuelve a abrir. Los ingresos pendientes no se pierden: se envían cuando la abrís de nuevo con conexión.
+Para que abra sin señal, el celular tiene que haber abierto ese link **al menos una vez con conexión**. Abrilo con señal antes del evento en cada celular que vaya a escanear.
 :::
 
 ## Consejos de operación
