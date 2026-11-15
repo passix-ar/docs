@@ -36,6 +36,8 @@ Tu butaca queda impresa en tu entrada (por ejemplo `Platea - B7`) y en el email 
 - **Efectivo** (según disponibilidad del país).
 - En algunos eventos, **transferencia** (pago offline).
 
+Para pagar con tarjeta no hace falta tener cuenta de MercadoPago.
+
 ## ¿Cuánto tarda?
 
 - Con tarjeta o dinero en cuenta, la confirmación es **inmediata**.
