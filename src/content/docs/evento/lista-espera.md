@@ -27,6 +27,10 @@ Cuando una entrada llega a stock 0, los compradores ven un formulario para **dej
 Passix procesa automáticamente las **ofertas expiradas** de la lista de espera y libera el lugar para el siguiente interesado.
 :::
 
+:::caution
+Las entradas con [asientos numerados](/evento/asientos/) no tienen lista de espera, porque la oferta no puede reservar una butaca. Cuando se agotan, el comprador ve **Agotado**.
+:::
+
 ## Buenas prácticas
 
 - Respondé rápido las liberaciones: la intención de compra baja con el tiempo.
