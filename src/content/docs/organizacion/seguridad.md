@@ -43,14 +43,14 @@ Después de 10 códigos equivocados, la cuenta se bloquea 15 minutos y te llega 
 
 Lo puede hacer solo quien creó la cuenta, y antes tiene que tenerla activada en su propio perfil.
 
-1. Andá a **Configuración → Equipo**.
+1. Andá a **Configuración de la cuenta → Usuarios**.
 2. Activá **Exigir autenticación de dos factores**.
 
 Desde ese momento, quien no la tenga activada tiene que configurarla la próxima vez que entre. En la lista del equipo, la columna **Dos factores** muestra quién ya la tiene.
 
 ## Si alguien pierde el celular y los códigos
 
-- **Un miembro del equipo:** un **Admin** de la cuenta toca **Restablecer dos factores** en su fila, en **Configuración → Equipo**. La persona entra con su contraseña y la vuelve a configurar. Si esa persona también está en otra organización, lo tiene que hacer soporte.
+- **Un miembro del equipo:** un **Admin** de la cuenta toca **Restablecer dos factores** en su fila, en **Configuración de la cuenta → Usuarios**. La persona entra con su contraseña y la vuelve a configurar. Si esa persona también está en otra organización, lo tiene que hacer soporte.
 - **Quien creó la cuenta:** escribinos a soporte. Cuando confirmemos que sos vos, la restablecemos.
 
 :::note
