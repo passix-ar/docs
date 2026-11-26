@@ -63,6 +63,7 @@ Para que abra sin señal, el celular tiene que haber abierto ese link con conexi
 - Poné **varias personas** escaneando en paralelo en horas pico (cada una con su lista).
 - Abrí la lista **con señal antes de que empiece a entrar la gente**, para que el celular baje la lista completa.
 - Cargá los celulares o llevá **baterías**; la cámara consume.
+- Si también vendés entradas en la puerta, usá la [taquilla](/check-in/taquilla/): las entradas salen en el momento y el escáner las reconoce.
 - Si un asistente no encuentra su QR, buscalo por **nombre o email** en [Asistentes](/ventas/asistentes/) y validá manualmente.
 
 ## Check-in manual

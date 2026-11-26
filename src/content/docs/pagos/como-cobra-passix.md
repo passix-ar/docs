@@ -43,6 +43,7 @@ Passix **no retiene ni toca tu dinero**: cae directo en tu cuenta de MercadoPago
 |---|---|
 | **MercadoPago** | Recomendado → [configurar](/pagos/mercadopago/) |
 | **Pago offline** (transferencia/efectivo) | Opcional → [ver](/pagos/offline/) |
+| **Taquilla** (venta en la puerta) | Efectivo, Mercado Pago u otro medio → [ver](/check-in/taquilla/) |
 
 ## Acreditación
 

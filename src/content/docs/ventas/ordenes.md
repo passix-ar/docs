@@ -27,6 +27,8 @@ En el evento, andá a **Pedidos** (menú **Venta de boletos**). Ves la lista con
 | **Pendiente** | Aún no confirmado. |
 | **Reembolsado** | Se devolvió el total desde MercadoPago (Passix lo registra solo). |
 
+Las ventas de la [taquilla](/check-in/taquilla/) muestran además el **Operador** que vendió y el **Pago** con que se cobró.
+
 ## Acciones sobre una orden
 
 Abriendo una orden podés:
