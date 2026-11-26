@@ -37,7 +37,7 @@ Ojo con esto: tener MercadoPago tildado no alcanza si la cuenta de la organizaci
 
 ## Ajustes del checkout
 
-- **Tiempo de reserva**: cuántos minutos se le reservan las entradas a un comprador mientras paga. Por defecto son **15 minutos**. Pasado ese plazo, si no pagó, las entradas (y las [butacas](/evento/asientos/)) vuelven a estar disponibles para otros.
+- **Tiempo de reserva**: cuántos minutos se le reservan las entradas a un comprador mientras paga. Por defecto son **15 minutos**. Pasado ese plazo, si no pagó, las entradas (y las [butacas](/evento/asientos/)) vuelven a estar disponibles para otros, y MercadoPago ya no acepta el pago.
 - **Términos y condiciones** del evento.
 - **Mensaje de confirmación** que ve el comprador al terminar.
 
